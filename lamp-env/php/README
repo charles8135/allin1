@@ -1,0 +1,21 @@
+--- PHP Installation & Usage Guide ---
+--- Version 1.0.0, Author Liu Yue ---
+
+== 安装 ==
+
+运行：sh install.sh
+
+== 初始化 ==
+
+安装完成后，需要初始化一下PHP配置，其中，需要创建apc和error_log所用文件夹
+
+配置完成后，进入PHP_BIN目录下，执行./php -i，可以查看php环境配置
+
+== 注意 ==
+
+本版本PHP安装并没有mcpack扩展的安装，原因是mcpack是百度内部的二进制编码方案，并不通用
+
+后续可以考虑支持protobuf
+
+在5.4.32上安装apc使用3.1.9版本会出core，因此选用了apc.3.1.13版本，但该版本当前（2014-11-17）依然是beta，因此线上使用时需要注意
+

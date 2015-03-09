@@ -1,0 +1,7 @@
+phpmyadmin 使用方法
+
+1. 放到指定的web发布目录
+2. 打开phpmyadmin根目录下my_host_conf.inc.php文件，配置相关host即可，注意，host项的组成是 host:port
+
+此外，要注意如果host配置成localhost可能无法正常登陆，因为配置了locahost将会默认走socket方式进行连接，我使用localhost并没有触发这个问题，如果提示2002不能登陆，可以试着将localhost改成127.0.0.1试试看
+

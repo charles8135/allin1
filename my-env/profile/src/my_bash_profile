@@ -1,0 +1,12 @@
+# === Liuyue's bashrc === 
+
+LANG=zh_CN.UTF-8
+
+alias cl="clear"
+alias l="clear; ll"
+alias prof="source ~/.bash_profile"
+
+
+export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[01;31m\]@\[\033[01;36m\]\H\[\033[01;31m\]:\[\e[33m\]\w\[\e[0m\]\n\$ '
+
+export PATH=~/bin:$PATH

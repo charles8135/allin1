@@ -1,0 +1,5 @@
+[mysqld]
+server-id   = 2741403592
+
+#read_only
+#log-slave-updates

@@ -1,0 +1,63 @@
+PHP Web项目实践方案
+
+环境要求：
+Linux Nginx MySQL Redis
+> PHP 5.4
+
+方案内容：
+
+VV 1. 支持多项目代码目录结构
+    TODO:
+        VV a. 支持其他路由格式, 采用Nginx rewrite规则解决
+        VV b. 支持smarty
+
+VV 2. 外部库引入要方便
+
+3. 通常的角色权限控制
+
+VV 4. 通常的输入检查控制 filter
+    每个模块自行定义input filter类，可以放到各自的模块中进行实现
+
+VV 5. 后台脚本执行机制
+
+6. 通常的类库支持：Multi_Curl，Multi_Socket, 异步任务Client,
+    消息队列Client，图片处理，文件处理，数组扩展函数，支付Client
+
+7. Web安全方案，xss，csrf，sql注入
+
+VV 8. 日志打印规范
+
+9. 其他功能Widget：投票、点赞、发短信、发邮件
+
+VV 10. 性能监控、统计
+
+11. 连接主从数据库和Model层
+
+
+Nginx配置示例
+
+server {
+    listen       8501;
+    server_name  liuyue.info  www.liuyue.info;
+    root   /home/liuyue/www-test;
+    access_log  /home/liuyue/var/log/nginx/sample.access.log main;
+
+    location / {
+        if (!-e $request_filename) {
+            rewrite ^(.*)$ /index.php?r=$1 last;
+            break;
+        }
+    }
+
+    location /favicon.ico {
+        rewrite http://www.baidu.com/favicon.ico last;
+    }
+
+    location ~ \.php$ {
+        fastcgi_pass   unix:/home/liuyue/my-local/sample-run/php.sock;
+        include        fastcgi_params;
+        fastcgi_param  SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    }
+
+}
+

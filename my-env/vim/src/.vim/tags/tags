@@ -1,0 +1,580 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+AC_AddExtension	chart/bin-debug/AC_OETags.js	/^function AC_AddExtension(src, ext)$/;"	f
+AC_AddExtension	chart/html-template/AC_OETags.js	/^function AC_AddExtension(src, ext)$/;"	f
+AC_AddExtension	mgr/asset/flex/AC_OETags.js	/^function AC_AddExtension(src, ext)$/;"	f
+AC_FL_RunContent	chart/bin-debug/AC_OETags.js	/^function AC_FL_RunContent(){$/;"	f
+AC_FL_RunContent	chart/html-template/AC_OETags.js	/^function AC_FL_RunContent(){$/;"	f
+AC_FL_RunContent	mgr/asset/flex/AC_OETags.js	/^function AC_FL_RunContent(){$/;"	f
+AC_Generateobj	chart/bin-debug/AC_OETags.js	/^function AC_Generateobj(objAttrs, params, embedAttrs) $/;"	f
+AC_Generateobj	chart/html-template/AC_OETags.js	/^function AC_Generateobj(objAttrs, params, embedAttrs) $/;"	f
+AC_Generateobj	mgr/asset/flex/AC_OETags.js	/^function AC_Generateobj(objAttrs, params, embedAttrs) $/;"	f
+AC_GetArgs	chart/bin-debug/AC_OETags.js	/^function AC_GetArgs(args, ext, srcParamName, classid, mimeType){$/;"	f
+AC_GetArgs	chart/html-template/AC_OETags.js	/^function AC_GetArgs(args, ext, srcParamName, classid, mimeType){$/;"	f
+AC_GetArgs	mgr/asset/flex/AC_OETags.js	/^function AC_GetArgs(args, ext, srcParamName, classid, mimeType){$/;"	f
+APPLICATION_PATH	mgr/index.php	/^define('APPLICATION_PATH', dirname(__FILE__));$/;"	d
+AllBase	userselection/AllBase/src/AllBase.php	/^class AllBase {$/;"	c
+Bootstrap	mgr/application/Bootstrap.php	/^class Bootstrap extends Ap_Bootstrap_Abstract{$/;"	c
+ConsumeIncreaseRate	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^class ConsumeIncreaseRate {$/;"	c
+ConsumeSequencePass	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^class ConsumeSequencePass {$/;"	c
+ControlVersion	chart/bin-debug/AC_OETags.js	/^function ControlVersion()$/;"	f
+ControlVersion	chart/html-template/AC_OETags.js	/^function ControlVersion()$/;"	f
+ControlVersion	mgr/asset/flex/AC_OETags.js	/^function ControlVersion()$/;"	f
+DetectFlashVer	chart/bin-debug/AC_OETags.js	/^function DetectFlashVer(reqMajorVer, reqMinorVer, reqRevision)$/;"	f
+DetectFlashVer	chart/html-template/AC_OETags.js	/^function DetectFlashVer(reqMajorVer, reqMinorVer, reqRevision)$/;"	f
+DetectFlashVer	mgr/asset/flex/AC_OETags.js	/^function DetectFlashVer(reqMajorVer, reqMinorVer, reqRevision)$/;"	f
+ErrorController	mgr/application/controllers/Error.php	/^class ErrorController extends Ap_Controller_Abstract {$/;"	c
+ExpClsModel	mgr/application/models/ExpCls.php	/^class ExpClsModel extends Sep_Dao_ModelAbstract{$/;"	c
+ExpController	mgr/application/controllers/Exp.php	/^class ExpController extends Mgr_AbstractController {$/;"	c
+ExpInfoModel	mgr/application/models/ExpInfo.php	/^class ExpInfoModel extends Sep_Dao_ModelAbstract {$/;"	c
+GetSwfVer	chart/bin-debug/AC_OETags.js	/^function GetSwfVer(){$/;"	f
+GetSwfVer	chart/html-template/AC_OETags.js	/^function GetSwfVer(){$/;"	f
+GetSwfVer	mgr/asset/flex/AC_OETags.js	/^function GetSwfVer(){$/;"	f
+IncreaseRateAllChecking	userselection/ConsumeIncRateChk/src/IncreaseRateAllChecking.php	/^class IncreaseRateAllChecking {$/;"	c
+IncreaseRateTradeChecking	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^class IncreaseRateTradeChecking {$/;"	c
+IndexController	mgr/application/controllers/Index.php	/^class IndexController extends Mgr_AbstractController{$/;"	c
+LINE_LIMIT	userselection/AllBase/src/AllBase.php	/^define ('LINE_LIMIT', 100000);$/;"	d
+LINE_LIMIT	userselection/ConsumeIncRateChk/src/IncreaseRateAllChecking.php	/^define ('LINE_LIMIT', 100000);$/;"	d
+LINE_LIMIT	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^define ('LINE_LIMIT', 100000);$/;"	d
+LINE_LIMIT	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^define ('LINE_LIMIT', 100000);$/;"	d
+LINE_LIMIT	userselection/TradeBase/src/TradeBase.php	/^define ('LINE_LIMIT', 100000);$/;"	d
+LINE_LIMIT	userselection/TradeConsumeLevel/src/TradeConsumeLevel.php	/^define ('LINE_LIMIT', 100000);$/;"	d
+LINE_LIMIT	userselection/TradeLowerLimit/src/TradeLowerLimit.php	/^define ('LINE_LIMIT', 100000);$/;"	d
+LINE_LIMIT	userselection/TradePassRate/src/TradePassRate.php	/^define ('LINE_LIMIT', 100000);$/;"	d
+LINE_LIMIT	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^define ('LINE_LIMIT', 100000);$/;"	d
+LogRequestPlugin	mgr/application/plugins/LogRequest.php	/^class LogRequestPlugin extends Ap_Plugin_Abstract {$/;"	c
+LoginPlugin	mgr/application/plugins/Login.php	/^class LoginPlugin extends Ap_Plugin_Abstract {$/;"	c
+Mgr_AbstractController	mgr/application/library/Mgr/AbstractController.php	/^class Mgr_AbstractController extends Ap_Controller_Abstract {$/;"	c
+Mgr_Dao_UUAP	mgr/application/library/Mgr/Dao/UUAP.php	/^class Mgr_Dao_UUAP {$/;"	c
+Mgr_Init	mgr/application/library/Mgr/Init.php	/^class Mgr_Init implements Sep_Init{$/;"	c
+Mgr_Module_Search	mgr/application/library/Mgr/Module/Search.php	/^class Mgr_Module_Search {$/;"	c
+Mgr_Module_Upload	mgr/application/library/Mgr/Module/Upload.php	/^class Mgr_Module_Upload {$/;"	c
+Mgr_Smarty_Adapter	mgr/application/library/Mgr/Smarty/Adapter.php	/^class Mgr_Smarty_Adapter implements Ap_View_Interface$/;"	c
+Mgr_User_Acct	mgr/application/library/Mgr/User/Acct.php	/^class Mgr_User_Acct {$/;"	c
+Mgr_Util_DBListener	mgr/application/library/Mgr/Util/DBListener.php	/^class Mgr_Util_DBListener implements Baidu_DB_QueryListener {$/;"	c
+Mgr_Util_Exception	mgr/application/library/Mgr/Util/Exception.php	/^class Mgr_Util_Exception extends Baidu_Exception {$/;"	c
+Mgr_Util_NoLoginUrl	mgr/application/library/Mgr/Util/NoLoginUrl.php	/^class Mgr_Util_NoLoginUrl {$/;"	c
+Mgr_Util_Validator_Runtime	mgr/application/library/Mgr/Util/Validator/Runtime.php	/^class Mgr_Util_Validator_Runtime implements Mgr_Util_Validator {$/;"	c
+Mgr_Util_Validator_StringLen	mgr/application/library/Mgr/Util/Validator/StringLen.php	/^class Mgr_Util_Validator_StringLen implements Mgr_Util_Validator {$/;"	c
+MiscDataModel	mgr/application/models/MiscData.php	/^class MiscDataModel extends Sep_Dao_ModelAbstract{$/;"	c
+ModuleClsModel	mgr/application/models/ModuleCls.php	/^class ModuleClsModel extends Sep_Dao_ModelAbstract{$/;"	c
+ModuleController	mgr/application/controllers/Module.php	/^class ModuleController extends Mgr_AbstractController {$/;"	c
+ModuleInfoModel	mgr/application/models/ModuleInfo.php	/^class ModuleInfoModel extends Sep_Dao_ModelAbstract{$/;"	c
+Sep_Exception	library/Sep/Exception.php	/^class Sep_Exception extends Baidu_Exception {$/;"	c
+Test_Abstract	tests/Test/Abstract.php	/^class Test_Abstract extends PTest_Case {$/;"	c
+Test_All	tests/Test/All.php	/^class Test_All extends PHPUnit_Framework_TestSuite{$/;"	c
+Test_Manager	tests/Test/Manager.php	/^class Test_Manager {$/;"	c
+Test_Sep_Dao_ModelAbstract	tests/Test/Sep/Dao/ModelAbstract.php	/^class Test_Sep_Dao_ModelAbstract extends Test_Abstract {$/;"	c
+TradeBase	userselection/TradeBase/src/TradeBase.php	/^class TradeBase {$/;"	c
+TradeConsumeLevel	userselection/TradeConsumeLevel/src/TradeConsumeLevel.php	/^class TradeConsumeLevel {$/;"	c
+TradeLowerLimit	userselection/TradeLowerLimit/src/TradeLowerLimit.php	/^class TradeLowerLimit {$/;"	c
+TradePassRate	userselection/TradePassRate/src/TradePassRate.php	/^class TradePassRate {$/;"	c
+UserConsumeCalculation	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^class UserConsumeCalculation {$/;"	c
+_storeStates	chart/bin-debug/history/history.js	/^    function _storeStates() {$/;"	f
+_storeStates	chart/html-template/history/history.js	/^    function _storeStates() {$/;"	f
+actRes	tests/Test/Sep/Dao/ModelAbstract.php	/^        $actRes = $this->_mockObj->findList($where, $order);$/;"	v
+actRes	tests/Test/Sep/Dao/ModelAbstract.php	/^        $actRes = $this->_mockObj->findOne($where, $order);$/;"	v
+adapter	library/Sep/Dao/ModelAbstract.php	/^        $adapter = $this->_getAdapter();$/;"	v
+adapter	library/Sep/Dao/ModelAbstract.php	/^        $adapter = Baidu_DB::getAdapter($this->_adapterName);$/;"	v
+adapter	mgr/application/library/Mgr/Init.php	/^        $adapter = Baidu_DB::getAdapter("DR_SEP");$/;"	v
+adapter	tests/Test/Abstract.php	/^        $adapter = Baidu_DB::getAdapter("SEP");$/;"	v
+adapterMock	tests/Test/Abstract.php	/^        $adapterMock = $this->getMock("Zend_Db_Adapter_Abstract");$/;"	v
+addAnchor	chart/bin-debug/history/history.js	/^    function addAnchor(flexAppUrl)$/;"	f
+addAnchor	chart/html-template/history/history.js	/^    function addAnchor(flexAppUrl)$/;"	f
+addHistoryEntry	chart/bin-debug/history/history.js	/^    function addHistoryEntry(baseUrl, newUrl, flexAppUrl) {$/;"	f
+addHistoryEntry	chart/html-template/history/history.js	/^    function addHistoryEntry(baseUrl, newUrl, flexAppUrl) {$/;"	f
+allBase	userselection/TradeConsumeLevel/src/TradeConsumeLevel.php	/^		$allBase = floatval(trim(stream_get_line($fp, LINE_LIMIT, "\\n")));$/;"	v
+allBase	userselection/TradeLowerLimit/src/TradeLowerLimit.php	/^		$allBase = floatval(trim(stream_get_line($fp, LINE_LIMIT, "\\n")));$/;"	v
+allBaseCalculation	userselection/AllBase/src/allBaseCalculation.php	/^$allBaseCalculation = new AllBase();$/;"	v
+allErrorLogOutput	mgr/application/library/Mgr/Init.php	/^        $allErrorLogOutput = new Baidu_IO_Output_File($allErrorLogPath);$/;"	v
+allErrorLogPath	mgr/application/library/Mgr/Init.php	/^        $allErrorLogPath = $logPath.'allerror.'.$intCurDate.'.log';$/;"	v
+allTradeBase	userselection/AllBase/src/AllBase.php	/^		$allTradeBase = $cashes[$index];$/;"	v
+allWarnLogOutput	mgr/application/library/Mgr/Init.php	/^        $allWarnLogOutput = new Baidu_IO_Output_File($allWarnLogPath);$/;"	v
+allWarnLogPath	mgr/application/library/Mgr/Init.php	/^        $allWarnLogPath = $logPath.'allwarn.'.$intCurDate.'.log';$/;"	v
+application	mgr/index.php	/^$application = new Ap_Application( APPLICATION_PATH . "\/conf\/application.ini");$/;"	v
+arrConfig	mgr/application/Bootstrap.php	/^		$arrConfig = Ap_Application::app()->getConfig();$/;"	v
+averageRate	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^				$averageRate = $this->_A12;$/;"	v
+averageRate	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^				$averageRate = ($this->_A12 - 2*$this->_A12);$/;"	v
+averageRate	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^			$averageRate = array_sum($rates)\/count($rates);$/;"	v
+backButton	chart/bin-debug/history/history.js	/^function backButton()$/;"	f
+backButton	chart/html-template/history/history.js	/^function backButton()$/;"	f
+baseUri	mgr/application/plugins/Login.php	/^        $baseUri = $request->getBaseUri();$/;"	v
+beginDate	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^            $beginDate = $dateUtil->format("Ymd");$/;"	v
+beginDate	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^        $beginDate = $dateUtil->format("Ymd");$/;"	v
+beginDate	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^		$beginDate = $dateUtil->format('ym');$/;"	v
+binary	mgr/asset/js/jquery.treeview.js	/^				function binary(arg) {$/;"	f
+candidateList	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^        $candidateList = $this->getCandidatesIterately();$/;"	v
+candidateList	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^        $candidateList = array();$/;"	v
+candidateList	userselection/TradePassRate/src/TradePassRate.php	/^            $candidateList = mysql_fetch_array($candidateLists, MYSQL_ASSOC);$/;"	v
+candidateLists	userselection/TradePassRate/src/TradePassRate.php	/^            $candidateLists = mysql_query($querySql, $this->_mysqlConnection);$/;"	v
+candidateTrades	userselection/TradePassRate/src/TradePassRate.php	/^        $candidateTrades = array_slice($tradePassRate, 0, intval($this->_A10 * count($tradePassRate)),true);$/;"	v
+candidateUsers	userselection/ConsumeIncRateChk/src/IncreaseRateAllChecking.php	/^        $candidateUsers = "";$/;"	v
+candidateUsers	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^		$candidateUsers = "";$/;"	v
+candidateUsers	userselection/TradePassRate/src/TradePassRate.php	/^            $candidateUsers = array_merge($candidateUsers, $tradeCandidateUsers[$tradeId]);$/;"	v
+candidateUsers	userselection/TradePassRate/src/TradePassRate.php	/^        $candidateUsers = array();$/;"	v
+cases	tests/Test/All.php	/^        $cases = Test_Manager::getCases();$/;"	v
+cash	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^    		$cash = $userConsume['cash'];$/;"	v
+cashes	userselection/AllBase/src/AllBase.php	/^		$cashes = $this->getConsumeCashes();$/;"	v
+cashes	userselection/AllBase/src/AllBase.php	/^		$cashes = array();$/;"	v
+checkForUrlChange	chart/bin-debug/history/history.js	/^    function checkForUrlChange() {$/;"	f
+checkForUrlChange	chart/html-template/history/history.js	/^    function checkForUrlChange() {$/;"	f
+chunks	library/Sep/Dao/ModelAbstract.php	/^        $chunks = array_chunk($values, $this->_batchNum);$/;"	v
+classLoader	tests/test.inc.php	/^$classLoader = new testLoader();$/;"	v
+className	tests/test.inc.php	/^            $className = substr($className, 0, strlen($className) - strlen("Controller"));$/;"	v
+className	tests/test.inc.php	/^            $className = substr($className, 0, strlen($className) - strlen("Model"));$/;"	v
+cls	mgr/application/controllers/Exp.php	/^        $cls = new ExpClsModel();$/;"	v
+cls	mgr/application/controllers/Exp.php	/^        $cls = strval($this->getRequest()->get("cls"));$/;"	v
+cls	mgr/application/controllers/Exp.php	/^        $cls = trim($this->getRequest()->get("cls"));$/;"	v
+cls	mgr/application/controllers/Module.php	/^        $cls = new ModuleClsModel();$/;"	v
+cls	mgr/application/controllers/Module.php	/^        $cls = strval($this->getRequest()->get("cls"));$/;"	v
+cls	mgr/application/controllers/Module.php	/^        $cls = trim($this->getRequest()->get("cls"));$/;"	v
+cls	mgr/application/models/ExpCls.php	/^            $cls = $row['clsid'];$/;"	v
+cls	mgr/application/models/ModuleCls.php	/^            $cls = $row['clsid'];$/;"	v
+cls	tests/Test/Sep/Dao/ModelAbstract.php	/^        $cls = $this->_cls;$/;"	v
+clsData	mgr/application/controllers/Exp.php	/^        $clsData = $clsModel->findOne(array("title = ?" => $cls));$/;"	v
+clsData	mgr/application/controllers/Module.php	/^        $clsData = $clsModel->findOne(array("title = ?" => $cls));$/;"	v
+clsData	mgr/application/models/ExpCls.php	/^        $clsData = $this->findList();$/;"	v
+clsData	mgr/application/models/ModuleCls.php	/^        $clsData = $this->findList();$/;"	v
+clsId	mgr/application/controllers/Exp.php	/^            $clsId = $clsInfo['id'];$/;"	v
+clsId	mgr/application/controllers/Exp.php	/^            $clsId = 0;$/;"	v
+clsId	mgr/application/controllers/Module.php	/^            $clsId = $clsInfo['id'];$/;"	v
+clsId	mgr/application/controllers/Module.php	/^            $clsId = 0;$/;"	v
+clsInfo	mgr/application/controllers/Exp.php	/^            $clsInfo = $clsModel->findOne(array("id = ?" => $expInfo['clsid']));$/;"	v
+clsInfo	mgr/application/controllers/Exp.php	/^        $clsInfo = $clsModel->findOne(array("title=?" => $cls));$/;"	v
+clsInfo	mgr/application/controllers/Module.php	/^            $clsInfo = $clsModel->findOne(array("id = ?" => $moduleInfo['clsid']));$/;"	v
+clsInfo	mgr/application/controllers/Module.php	/^        $clsInfo = $clsModel->findOne(array("title=?" => $cls));$/;"	v
+clsInfo	mgr/application/models/ExpCls.php	/^        $clsInfo = array();$/;"	v
+clsInfo	mgr/application/models/ModuleCls.php	/^        $clsInfo = array();$/;"	v
+clsModel	mgr/application/controllers/Exp.php	/^            $clsModel = new ExpClsModel();$/;"	v
+clsModel	mgr/application/controllers/Exp.php	/^        $clsModel = new ExpClsModel();$/;"	v
+clsModel	mgr/application/controllers/Module.php	/^            $clsModel = new ModuleClsModel();$/;"	v
+clsModel	mgr/application/controllers/Module.php	/^        $clsModel = new ModuleClsModel();$/;"	v
+cnt	tests/Test/Abstract.php	/^        $cnt = count($result);$/;"	v
+command	mgr/application/library/Mgr/Module/Upload.php	/^        $command = "cd $filePath;tar -xzf $file";$/;"	v
+componentPath	userselection/AllBase/src/AllBase.php	/^        $componentPath = realpath(dirname(__FILE__)."\/..\/");$/;"	v
+componentPath	userselection/ConsumeIncRateChk/src/IncreaseRateAllChecking.php	/^        $componentPath = realpath(dirname(__FILE__)."\/..\/");$/;"	v
+componentPath	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^        $componentPath = realpath(dirname(__FILE__)."\/..\/");$/;"	v
+componentPath	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^        $componentPath = realpath(dirname(__FILE__)."\/..\/");$/;"	v
+componentPath	userselection/TradeBase/src/TradeBase.php	/^        $componentPath = realpath(dirname(__FILE__)."\/..\/");$/;"	v
+componentPath	userselection/TradeConsumeLevel/src/TradeConsumeLevel.php	/^        $componentPath = realpath(dirname(__FILE__)."\/..\/");$/;"	v
+componentPath	userselection/TradeLowerLimit/src/TradeLowerLimit.php	/^        $componentPath = realpath(dirname(__FILE__)."\/..\/");$/;"	v
+componentPath	userselection/TradePassRate/src/TradePassRate.php	/^        $componentPath = realpath(dirname(__FILE__)."\/..\/");$/;"	v
+componentPath	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^        $componentPath = realpath(dirname(__FILE__)."\/..\/");$/;"	v
+componentPath	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^        $componentPath = realpath(dirname(__FILE__)."\/..\/");$/;"	v
+conf	mgr/application/controllers/Module.php	/^            $conf = $upload->getConf();$/;"	v
+confFile	mgr/application/library/Mgr/Module/Upload.php	/^        $confFile = $filePath . "\/conf\/conf.xml";$/;"	v
+confId	mgr/application/controllers/Module.php	/^            $confId = $model->saveConf($moduleId, $conf);$/;"	v
+confPath	userselection/AllBase/src/AllBase.php	/^        $confPath = $componentPath."\/conf\/conf.xml";$/;"	v
+confPath	userselection/ConsumeIncRateChk/src/IncreaseRateAllChecking.php	/^        $confPath = $componentPath."\/conf\/conf.xml";$/;"	v
+confPath	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^        $confPath = $componentPath."\/conf\/conf.xml";$/;"	v
+confPath	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^        $confPath = $componentPath."\/conf\/conf.xml";$/;"	v
+confPath	userselection/TradeBase/src/TradeBase.php	/^        $confPath = $componentPath."\/conf\/conf.xml";$/;"	v
+confPath	userselection/TradeConsumeLevel/src/TradeConsumeLevel.php	/^        $confPath = $componentPath."\/conf\/conf.xml";$/;"	v
+confPath	userselection/TradeLowerLimit/src/TradeLowerLimit.php	/^        $confPath = $componentPath."\/conf\/conf.xml";$/;"	v
+confPath	userselection/TradePassRate/src/TradePassRate.php	/^        $confPath = $componentPath."\/conf\/conf.xml";$/;"	v
+confPath	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^        $confPath = $componentPath."\/conf\/conf.xml";$/;"	v
+confPath	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^        $confPath = $componentPath."\/conf\/conf.xml";$/;"	v
+consumeRateChecking	userselection/ConsumeIncRateChk/src/consumeIncreaseRateChecking.php	/^$consumeRateChecking = new IncreaseRateAllChecking();$/;"	v
+consumeRateChecking	userselection/ConsumeIncRateTradeChk/src/consumeIncreaseRateTradeChecking.php	/^$consumeRateChecking = new IncreaseRateTradeChecking();$/;"	v
+consumeSequencePassCheck	userselection/ConsumeSequencePass/src/consumeSequencePassCheck.php	/^$consumeSequencePassCheck = new ConsumeSequencePass($curDate);$/;"	v
+content	tests/Test/All.php	/^                    $content = file_get_contents("$path\/$file");$/;"	v
+couponConsumes	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^        	$couponConsumes = mysql_query($querySql, $this->_mysqlConnection);$/;"	v
+couponConsumes	userselection/TradePassRate/src/TradePassRate.php	/^            $couponConsumes = mysql_query($querySql, $this->_mysqlConnection);$/;"	v
+createState	chart/bin-debug/history/history.js	/^    function createState(baseUrl, newUrl, flexAppUrl) {$/;"	f
+createState	chart/html-template/history/history.js	/^    function createState(baseUrl, newUrl, flexAppUrl) {$/;"	f
+ctrlLogPath	mgr/application/library/Mgr/Init.php	/^        $ctrlLogPath = $logPath.'mgr.ctrl.'.$intCurDate.'.log';$/;"	v
+curDate	userselection/ConsumeSequencePass/src/consumeSequencePassCheck.php	/^$curDate = date("Ym01", time());$/;"	v
+curDate	userselection/TradePassRate/src/TradePassRate.php	/^            $curDate = $dateUtil->format("Ymd");$/;"	v
+curDate	userselection/TradePassRate/src/TradePassRate.php	/^        $curDate = $dateUtil->format("Ym01");$/;"	v
+curDate	userselection/TradePassRate/src/tradePassRateCalculation.php	/^$curDate = date("Ym01", time());$/;"	v
+curDate	userselection/UserConsumeIncreaseRate/src/userConsumeIncreaseRate.php	/^$curDate = date('ym', time());$/;"	v
+curDate	userselection/UserMonthConsume/src/userMonthConsumeCalculation.php	/^$curDate = date('ym', time());$/;"	v
+data	library/Sep/Dao/ModelAbstract.php	/^            $data = $this->_data;$/;"	v
+data	library/Sep/Dao/ModelAbstract.php	/^        $data = $adapter->fetchAll($select->__toString());$/;"	v
+data	mgr/application/controllers/Exp.php	/^        $data = array($/;"	v
+data	mgr/application/controllers/Module.php	/^            $data = array($/;"	v
+data	mgr/application/controllers/Module.php	/^        $data = array();$/;"	v
+data	mgr/application/library/Mgr/Module/Search.php	/^        $data = $model->findList($where);$/;"	v
+data	mgr/application/models/ExpInfo.php	/^        $data = $this->findOne(array("id = ?" => $id));$/;"	v
+data	mgr/application/models/ExpInfo.php	/^        $data = $this->findOne(array("id=?" => $id));$/;"	v
+data	mgr/application/models/ModuleInfo.php	/^        $data = $this->findOne(array("id = ?" => $id));$/;"	v
+data	mgr/application/models/ModuleInfo.php	/^        $data = $this->findOne(array("id=?" => $id));$/;"	v
+data	mgr/application/models/ModuleInfo.php	/^        $data = array();$/;"	v
+data	tests/Test/Sep/Dao/ModelAbstract.php	/^        $data = array($/;"	v
+dateUtil	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^        $dateUtil = new DateTime($this->_curDate);$/;"	v
+dateUtil	userselection/TradePassRate/src/TradePassRate.php	/^        $dateUtil = new DateTime($this->_curDate);$/;"	v
+dateUtil	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^        $dateUtil = new DateTime($curDate);$/;"	v
+dateUtil	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^		$dateUtil = new DateTime($this->_curDate);$/;"	v
+dbInfos	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^        $dbInfos = $doc->getElementsByTagName("db");$/;"	v
+dbInfos	userselection/TradePassRate/src/TradePassRate.php	/^        $dbInfos = $doc->getElementsByTagName("db");$/;"	v
+dbInfos	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^		$dbInfos = $doc->getElementsByTagName("db");$/;"	v
+dbLogPath	mgr/application/library/Mgr/Init.php	/^        $dbLogPath = $logPath.'mgr.db.'.$intCurDate.'.log';$/;"	v
+dbLogger	mgr/application/library/Mgr/Init.php	/^        $dbLogger = Baidu_Logger::getLogger("dblog");$/;"	v
+dbPath	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^        $dbPath = $componentPath."\/conf\/db.xml";$/;"	v
+dbPath	userselection/TradePassRate/src/TradePassRate.php	/^        $dbPath = $componentPath."\/conf\/db.xml";$/;"	v
+dbPath	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^        $dbPath = $componentPath."\/conf\/db.xml";$/;"	v
+dbmgr	mgr/application/library/Mgr/Init.php	/^        $dbmgr = new Baidu_DB_SimpleScalableAdapterManager();$/;"	v
+dbmgr	tests/test.inc.php	/^$dbmgr = new Baidu_DB_SimpleScalableAdapterManager();$/;"	v
+debugLogOutput	mgr/application/library/Mgr/Init.php	/^            $debugLogOutput = new Baidu_IO_Output_File($debugLogPath);$/;"	v
+debugLogPath	mgr/application/library/Mgr/Init.php	/^            $debugLogPath = $logPath.'mgr.debug.'.$intCurDate.'.log';$/;"	v
+deserialize	mgr/asset/js/jquery.treeview.js	/^			function deserialize() {$/;"	f
+doc	mgr/application/models/ModuleInfo.php	/^        $doc = new DOMDocument();$/;"	v
+doc	userselection/AllBase/src/AllBase.php	/^	    $doc = new DOMDocument();$/;"	v
+doc	userselection/ConsumeIncRateChk/src/IncreaseRateAllChecking.php	/^        $doc = new DOMDocument();$/;"	v
+doc	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^        $doc = new DOMDocument();$/;"	v
+doc	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^        $doc = new DOMDocument();$/;"	v
+doc	userselection/TradeBase/src/TradeBase.php	/^        $doc = new DOMDocument();$/;"	v
+doc	userselection/TradeConsumeLevel/src/TradeConsumeLevel.php	/^        $doc = new DOMDocument();$/;"	v
+doc	userselection/TradeLowerLimit/src/TradeLowerLimit.php	/^        $doc = new DOMDocument();$/;"	v
+doc	userselection/TradePassRate/src/TradePassRate.php	/^        $doc = new DOMDocument();$/;"	v
+doc	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^        $doc = new DOMDocument();$/;"	v
+doc	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^	    $doc = new DOMDocument();$/;"	v
+doc	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^        $doc = new DOMDocument();$/;"	v
+domain	mgr/application/library/Mgr/AbstractController.php	/^        $domain = Sep_Conf_Env::$URI_PRE;$/;"	v
+element	userselection/AllBase/src/AllBase.php	/^        $element = $doc->getElementsByTagName($tagName)->item($index);$/;"	v
+element	userselection/ConsumeIncRateChk/src/IncreaseRateAllChecking.php	/^        $element = $doc->getElementsByTagName($tagName)->item($index);$/;"	v
+element	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^        $element = $doc->getElementsByTagName($tagName)->item($index);$/;"	v
+element	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^        $element = $doc->getElementsByTagName($tagName)->item($index);$/;"	v
+element	userselection/TradeBase/src/TradeBase.php	/^        $element = $doc->getElementsByTagName($tagName)->item($index);$/;"	v
+element	userselection/TradeConsumeLevel/src/TradeConsumeLevel.php	/^        $element = $doc->getElementsByTagName($tagName)->item($index);$/;"	v
+element	userselection/TradeLowerLimit/src/TradeLowerLimit.php	/^        $element = $doc->getElementsByTagName($tagName)->item($index);$/;"	v
+element	userselection/TradePassRate/src/TradePassRate.php	/^        $element = $doc->getElementsByTagName($tagName)->item($index);$/;"	v
+element	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^        $element = $doc->getElementsByTagName($tagName)->item($index);$/;"	v
+element	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^        $element = $doc->getElementsByTagName($tagName)->item($index);$/;"	v
+endDate	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^        	$endDate = date("Ymt", strtotime($beginDate));$/;"	v
+endDate	userselection/TradePassRate/src/TradePassRate.php	/^        $endDate = $dateUtil->format("Ymt");$/;"	v
+endDate	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^		$endDate = $dateUtil->format('ym');$/;"	v
+err	mgr/application/controllers/Exp.php	/^            $err = "";$/;"	v
+err	mgr/application/controllers/Exp.php	/^            $err = $e->getMessage();$/;"	v
+errorLogOutput	mgr/application/library/Mgr/Init.php	/^        $errorLogOutput = new Baidu_IO_Output_File($errorLogPath);$/;"	v
+errorLogPath	mgr/application/library/Mgr/Init.php	/^        $errorLogPath = $logPath.'mgr.error.'.$intCurDate.'.log';$/;"	v
+errorTip	mgr/application/controllers/Module.php	/^                    $errorTip = '上传文件超过大小限制';$/;"	v
+errorTip	mgr/application/controllers/Module.php	/^                    $errorTip = '文件为空或者文件不存在'; $/;"	v
+errorTip	mgr/application/controllers/Module.php	/^                $errorTip = '上传文件超过大小限制';$/;"	v
+errorTip	mgr/application/controllers/Module.php	/^                $errorTip = '文件没有完整上传';$/;"	v
+errorTip	mgr/application/controllers/Module.php	/^                $errorTip = '未知错误';$/;"	v
+errorTip	mgr/application/controllers/Module.php	/^                $errorTip = '没有上传文件';$/;"	v
+expData	mgr/application/models/ExpCls.php	/^        $expData = $expModel->findList();$/;"	v
+expId	mgr/application/controllers/Exp.php	/^        $expId = $model->add($data);$/;"	v
+expId	mgr/application/controllers/Exp.php	/^        $expId = intval($this->getRequest()->get("id"));$/;"	v
+expInfo	mgr/application/controllers/Exp.php	/^            $expInfo = $model->findOne(array("id = ?" => $expId));$/;"	v
+expInfo	mgr/application/controllers/Exp.php	/^            $expInfo = array();$/;"	v
+expInfo	mgr/application/controllers/Exp.php	/^        $expInfo = $infoModel->findOne(array("id = ?" => $expId));$/;"	v
+expModel	mgr/application/models/ExpCls.php	/^        $expModel = new ExpInfoModel();$/;"	v
+expRes	tests/Test/Sep/Dao/ModelAbstract.php	/^        $expRes = array(array("id" => 232));$/;"	v
+expSql	tests/Test/Sep/Dao/ModelAbstract.php	/^        $expSql = 'DELETE FROM `MP_COUPON`.`coupon_consume` WHERE `id` = \\'23\\'';$/;"	v
+expSql	tests/Test/Sep/Dao/ModelAbstract.php	/^        $expSql = 'UPDATE `MP_COUPON`.`coupon_consume` SET `uid` = \\'33\\',`amount` = \\'222\\' WHERE `id` = \\'23\\'';$/;"	v
+expSql1	tests/Test/Sep/Dao/ModelAbstract.php	/^        $expSql1 = "INSERT INTO `coupon_consume` (uid, amount) VALUES('76','22'),('32','44')";$/;"	v
+expSql2	tests/Test/Sep/Dao/ModelAbstract.php	/^        $expSql2 = "INSERT INTO `coupon_consume` (uid, amount) VALUES('56','23'),('67','21')";$/;"	v
+expSql3	tests/Test/Sep/Dao/ModelAbstract.php	/^        $expSql3 = "INSERT INTO `coupon_consume` (uid, amount) VALUES('12','32')";$/;"	v
+feed	mgr/application/controllers/Exp.php	/^        $feed = trim($this->getRequest()->get("feed"));$/;"	v
+fields	tests/Test/Sep/Dao/ModelAbstract.php	/^        $fields = array("uid", "amount");$/;"	v
+file	mgr/application/library/Mgr/Module/Upload.php	/^        $file = $filePath . "\/" . $this->_moduleId . ".tgz";$/;"	v
+fileAttr	mgr/application/controllers/Module.php	/^        $fileAttr = $_FILES['src_file'];$/;"	v
+filePath	mgr/application/library/Mgr/Module/Upload.php	/^        $filePath = Sep_Conf_Env::$USER_DIR . "\/var\/dr-sep\/data\/module\/" $/;"	v
+filesize	mgr/application/controllers/Module.php	/^                $filesize = filesize($fileAttr['tmp_name']);                                                    $/;"	v
+forwardButton	chart/bin-debug/history/history.js	/^function forwardButton()$/;"	f
+forwardButton	chart/html-template/history/history.js	/^function forwardButton()$/;"	f
+fp	userselection/AllBase/src/AllBase.php	/^		$fp = fopen($this->_inFile, "r");$/;"	v
+fp	userselection/ConsumeIncRateChk/src/IncreaseRateAllChecking.php	/^        $fp = fopen($this->_inFile, "r");$/;"	v
+fp	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^		$fp = fopen($this->_increaseRateFile, "r");$/;"	v
+fp	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^		$fp = fopen($this->_tradeFile, "r");$/;"	v
+fp	userselection/TradeBase/src/TradeBase.php	/^		$fp = fopen($this->_inFile, "r");$/;"	v
+fp	userselection/TradeConsumeLevel/src/TradeConsumeLevel.php	/^		$fp = fopen($this->_allBaseFile, "r");$/;"	v
+fp	userselection/TradeConsumeLevel/src/TradeConsumeLevel.php	/^		$fp = fopen($this->_tradeBaseFile, "r");$/;"	v
+fp	userselection/TradeLowerLimit/src/TradeLowerLimit.php	/^		$fp = fopen($this->_allBaseFile, "r");$/;"	v
+fp	userselection/TradeLowerLimit/src/TradeLowerLimit.php	/^		$fp = fopen($this->_tradeBaseFile, "r");$/;"	v
+fp	userselection/TradePassRate/src/TradePassRate.php	/^        $fp = fopen($this->_tradeInfoFile, "r");$/;"	v
+fp	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^		$fp = fopen($this->_inFile, "r");$/;"	v
+getAnchorElement	chart/bin-debug/history/history.js	/^    function getAnchorElement()$/;"	f
+getAnchorElement	chart/html-template/history/history.js	/^    function getAnchorElement()$/;"	f
+getFormElement	chart/bin-debug/history/history.js	/^    function getFormElement()$/;"	f
+getFormElement	chart/html-template/history/history.js	/^    function getFormElement()$/;"	f
+getHash	chart/bin-debug/history/history.js	/^    function getHash() {$/;"	f
+getHash	chart/html-template/history/history.js	/^    function getHash() {$/;"	f
+getHistoryFrame	chart/bin-debug/history/history.js	/^    function getHistoryFrame()$/;"	f
+getHistoryFrame	chart/html-template/history/history.js	/^    function getHistoryFrame()$/;"	f
+getIframeHash	chart/bin-debug/history/history.js	/^	function getIframeHash() {$/;"	f
+getIframeHash	chart/html-template/history/history.js	/^	function getIframeHash() {$/;"	f
+getPlayer	chart/bin-debug/history/history.js	/^    function getPlayer(objectId) {$/;"	f
+getPlayer	chart/html-template/history/history.js	/^    function getPlayer(objectId) {$/;"	f
+getPlayers	chart/bin-debug/history/history.js	/^    function getPlayers() {$/;"	f
+getPlayers	chart/html-template/history/history.js	/^    function getPlayers() {$/;"	f
+getRememberElement	chart/bin-debug/history/history.js	/^    function getRememberElement()$/;"	f
+getRememberElement	chart/html-template/history/history.js	/^    function getRememberElement()$/;"	f
+glb_projectDir	tests/Test/All.php	/^$glb_projectDir = realpath(dirname(__FILE__) . '\/..\/..\/');$/;"	v
+glb_projectDir	tests/test.inc.php	/^$glb_projectDir = realpath(dirname(__FILE__) . '\/..\/');$/;"	v
+goForwardOrBackInHistory	chart/bin-debug/history/history.js	/^function goForwardOrBackInHistory(step)$/;"	f
+goForwardOrBackInHistory	chart/html-template/history/history.js	/^function goForwardOrBackInHistory(step)$/;"	f
+handleArbitraryUrl	chart/bin-debug/history/history.js	/^    function handleArbitraryUrl() {$/;"	f
+handleArbitraryUrl	chart/html-template/history/history.js	/^    function handleArbitraryUrl() {$/;"	f
+handleBackButton	chart/bin-debug/history/history.js	/^    function handleBackButton() {$/;"	f
+handleBackButton	chart/html-template/history/history.js	/^    function handleBackButton() {$/;"	f
+handleForwardButton	chart/bin-debug/history/history.js	/^    function handleForwardButton() {$/;"	f
+handleForwardButton	chart/html-template/history/history.js	/^    function handleForwardButton() {$/;"	f
+handler	mgr/asset/js/jquery.treeview.js	/^				function handler(filter) {$/;"	f
+host	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^            $host = $dbInfo->getElementsByTagName('host')->item(0)->nodeValue;$/;"	v
+host	userselection/TradePassRate/src/TradePassRate.php	/^            $host = $dbInfo->getElementsByTagName('host')->item(0)->nodeValue;$/;"	v
+host	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^            $host = $dbInfo->getElementsByTagName('host')->item(0)->nodeValue;$/;"	v
+i	tests/Test/Abstract.php	/^        $i = 1;$/;"	v
+id	mgr/application/controllers/Exp.php	/^        $id = intval($this->getRequest()->get("id"));$/;"	v
+id	mgr/application/models/ExpInfo.php	/^            $id = $miscDataModel->add(array("data" => $intro));$/;"	v
+id	mgr/application/models/ExpInfo.php	/^        $id = $miscDataModel->add(array("data" => $intro));$/;"	v
+id	mgr/application/models/ModuleInfo.php	/^            $id = $miscDataModel->add(array("data" => $intro));$/;"	v
+id	mgr/application/models/ModuleInfo.php	/^        $id = $miscDataModel->add(array("data" => $intro));$/;"	v
+id	mgr/application/models/ModuleInfo.php	/^        $id = $miscDataModel->add(array("data" => $xml));$/;"	v
+id	tests/Test/Sep/Dao/ModelAbstract.php	/^        $id = $this->_mockObj->add($data);$/;"	v
+ids	mgr/application/controllers/Module.php	/^        $ids = $this->getRequest()->get("ids");$/;"	v
+ids	mgr/application/controllers/Module.php	/^        $ids = array_unique($ids);$/;"	v
+ids	mgr/application/controllers/Module.php	/^        $ids = explode(",", $ids);$/;"	v
+increaseRate	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^		$increaseRate = "";$/;"	v
+index	userselection/AllBase/src/AllBase.php	/^        $index = intval($this->_A2 * $recordCount);$/;"	v
+index	userselection/ConsumeIncRateChk/src/IncreaseRateAllChecking.php	/^		$index = intval($this->_A6 * count($userConsumeRates));$/;"	v
+index	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^            $index = 1;$/;"	v
+index	userselection/TradeBase/src/TradeBase.php	/^        	$index = intval($this->_A2 * $recordCount);$/;"	v
+info	library/Sep/Dao/ModelAbstract.php	/^                $info = "f=" . var_export($fields, true) $/;"	v
+infoLogOutput	mgr/application/library/Mgr/Init.php	/^        $infoLogOutput = new Baidu_IO_Output_File($infoLogPath);$/;"	v
+infoLogPath	mgr/application/library/Mgr/Init.php	/^        $infoLogPath = $logPath.'mgr.info.'.$intCurDate.'.log';$/;"	v
+infoModel	mgr/application/controllers/Exp.php	/^        $infoModel = new ExpInfoModel();$/;"	v
+infoModel	mgr/application/controllers/Module.php	/^        $infoModel = new ModuleInfoModel();$/;"	v
+init	mgr/application/Bootstrap.php	/^        $init = new Mgr_Init();$/;"	v
+intCurDate	mgr/application/library/Mgr/Init.php	/^        $intCurDate = date('Ymd', Mgr_Util_Date::getTime());$/;"	v
+intro	mgr/application/controllers/Exp.php	/^        $intro = strval($this->getRequest()->get("intro"));$/;"	v
+intro	mgr/application/controllers/Exp.php	/^        $intro = trim($this->getRequest()->get("intro"));$/;"	v
+intro	mgr/application/controllers/Module.php	/^        $intro = strval($this->getRequest()->get("intro"));$/;"	v
+intro	mgr/application/controllers/Module.php	/^        $intro = trim($this->getRequest()->get("intro"));$/;"	v
+introId	mgr/application/controllers/Exp.php	/^            $introId = $model->addIntro($intro);$/;"	v
+introId	mgr/application/controllers/Exp.php	/^            $introId = 0;$/;"	v
+introId	mgr/application/controllers/Module.php	/^            $introId = $model->addIntro($intro);$/;"	v
+introId	mgr/application/controllers/Module.php	/^            $introId = 0;$/;"	v
+introInfo	mgr/application/controllers/Exp.php	/^                $introInfo = $introModel->findOne(array("id = ?" => $expInfo['intro']));$/;"	v
+introInfo	mgr/application/controllers/Module.php	/^                $introInfo = $introModel->findOne(array("id = ?" => $moduleInfo['intro']));$/;"	v
+introModel	mgr/application/controllers/Exp.php	/^                $introModel = new MiscDataModel();$/;"	v
+introModel	mgr/application/controllers/Module.php	/^                $introModel = new MiscDataModel();$/;"	v
+issuedCouponUsers	userselection/TradePassRate/src/TradePassRate.php	/^        $issuedCouponUsers = $this->getIssuedCouponUsers($ruleIds);$/;"	v
+issuedCouponUsers	userselection/TradePassRate/src/TradePassRate.php	/^        $issuedCouponUsers = array();$/;"	v
+lastestCash	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^				$lastestCash = $cash;$/;"	v
+lastestCash	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^                    $lastestCash = $cash;$/;"	v
+lastestCash	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^            $lastestCash = -1;$/;"	v
+len	mgr/application/library/Mgr/Util/Validator/StringLen.php	/^        $len = strlen($this->_value);$/;"	v
+logPath	mgr/application/library/Mgr/Init.php	/^        $logPath = Sep_Conf_Env::$USER_DIR . '\/var\/dr-sep\/logs\/' . $intCurDate . '\/';$/;"	v
+logRequestPlugin	mgr/application/Bootstrap.php	/^        $logRequestPlugin = new LogRequestPlugin();$/;"	v
+logger	mgr/application/library/Mgr/Init.php	/^        $logger = Baidu_Logger::getLogger(Baidu_Const_Log::SYSTEM);$/;"	v
+logger	mgr/application/library/Mgr/Util/DBListener.php	/^        $logger = Baidu_Logger::getLogger("dblog");$/;"	v
+logger	mgr/application/plugins/LogRequest.php	/^	    $logger = Baidu_Logger::getLogger();$/;"	v
+map	mgr/application/library/Mgr/Init.php	/^        $map = array($/;"	v
+max	mgr/application/library/Mgr/Util/Validator/StringLen.php	/^        $max = $this->_max;$/;"	v
+memcached	mgr/application/library/Mgr/Init.php	/^        $memcached = new Baidu_Cache_Memcached();$/;"	v
+min	mgr/application/library/Mgr/Util/Validator/StringLen.php	/^        $min = $this->_min;$/;"	v
+miscData	mgr/application/models/ExpInfo.php	/^        $miscData = $miscDataModel->findOne(array("id=?" => $data['xmlid']));$/;"	v
+miscData	mgr/application/models/ModuleInfo.php	/^        $miscData = $miscModel->findOne(array("id=?" => $data['xmlid']));$/;"	v
+miscDataModel	mgr/application/models/ExpInfo.php	/^        $miscDataModel = new MiscDataModel();$/;"	v
+miscDataModel	mgr/application/models/ModuleInfo.php	/^        $miscDataModel = new MiscDataModel();$/;"	v
+miscModel	mgr/application/models/ModuleInfo.php	/^        $miscModel = new MiscDataModel();$/;"	v
+model	mgr/application/controllers/Exp.php	/^            $model = new ExpInfoModel();$/;"	v
+model	mgr/application/controllers/Exp.php	/^        $model = new ExpInfoModel();$/;"	v
+model	mgr/application/controllers/Module.php	/^            $model = new ModuleInfoModel();$/;"	v
+model	mgr/application/controllers/Module.php	/^        $model = new ModuleInfoModel();$/;"	v
+model	mgr/application/library/Mgr/Module/Search.php	/^        $model = new ModuleInfoModel();$/;"	v
+moduleData	mgr/application/models/ModuleCls.php	/^        $moduleData = $moduleModel->findList();$/;"	v
+moduleId	mgr/application/controllers/Module.php	/^            $moduleId = $model->add($data);$/;"	v
+moduleId	mgr/application/controllers/Module.php	/^        $moduleId = intval($this->getRequest()->get("id"));$/;"	v
+moduleInfo	mgr/application/controllers/Module.php	/^            $moduleInfo = $model->findOne(array("id = ?" => $moduleId));$/;"	v
+moduleInfo	mgr/application/controllers/Module.php	/^            $moduleInfo = array();$/;"	v
+moduleInfo	mgr/application/controllers/Module.php	/^        $moduleInfo = $infoModel->findOne(array("id = ?" => $moduleId));$/;"	v
+moduleModel	mgr/application/models/ModuleCls.php	/^        $moduleModel = new ModuleInfoModel();$/;"	v
+modules	mgr/application/controllers/Module.php	/^        $modules = array();$/;"	v
+month	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^    		$month = $userConsume['month'];$/;"	v
+monthCount	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^            $monthCount = count($monthCashMappings);$/;"	v
+msg	mgr/application/library/Mgr/Util/Validator/StringLen.php	/^            $msg = str_replace('__DETAIL__', '必须大于等于' . $min, $msg);$/;"	v
+msg	mgr/application/library/Mgr/Util/Validator/StringLen.php	/^            $msg = str_replace('__DETAIL__', '必须小于等于' . $max, $msg);$/;"	v
+msg	mgr/application/library/Mgr/Util/Validator/StringLen.php	/^        $msg = $this->_msg;$/;"	v
+name	mgr/application/library/Mgr/User/Acct.php	/^        $name = Mgr_Dao_UUAP::tryLogin();$/;"	v
+objLoginPlugin	mgr/application/Bootstrap.php	/^		$objLoginPlugin = new LoginPlugin();$/;"	v
+old	mgr/application/models/MiscData.php	/^        $old = $this->findOne(array("id = ?" => $id));$/;"	v
+order	library/Sep/Dao/ModelAbstract.php	/^            $order = array($order);$/;"	v
+order	tests/Test/Sep/Dao/ModelAbstract.php	/^        $order = "id ASC";$/;"	v
+passWord	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^            $passWord = $dbInfo->getElementsByTagName('password')->item(0)->nodeValue;$/;"	v
+passWord	userselection/TradePassRate/src/TradePassRate.php	/^            $passWord = $dbInfo->getElementsByTagName('password')->item(0)->nodeValue;$/;"	v
+passWord	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^            $passWord = $dbInfo->getElementsByTagName('password')->item(0)->nodeValue;$/;"	v
+path	mgr/index.php	/^$path = realpath(APPLICATION_PATH . "\/..\/library");$/;"	v
+paths	tests/Test/All.php	/^$paths = array($glb_projectDir . "\/tests\/Test");$/;"	v
+paths	tests/test.inc.php	/^$paths = array($/;"	v
+processUrl	chart/bin-debug/history/historyFrame.html	/^        function processUrl()$/;"	f
+processUrl	chart/html-template/history/historyFrame.html	/^        function processUrl()$/;"	f
+query	mgr/application/controllers/Module.php	/^        $query = $this->getRequest()->get("query");$/;"	v
+querySql	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^        	$querySql = "select * from coupon_consume where addtime>=".$beginDate." and addtime<=".$endDate;$/;"	v
+querySql	userselection/TradePassRate/src/TradePassRate.php	/^            $querySql = "select * from coupon_consume where ruleid=".$ruleId;$/;"	v
+querySql	userselection/TradePassRate/src/TradePassRate.php	/^            $querySql = "select * from rule_candidate_list where id=".$ruleId;$/;"	v
+querySql	userselection/TradePassRate/src/TradePassRate.php	/^            $querySql = "select * from rule_record where begindate<=".$curDate$/;"	v
+rateBase	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^			$rateBase = $tradeIncreaseRatesBase[$tradeId];$/;"	v
+rates	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^			$rates = array();$/;"	v
+recordCount	userselection/AllBase/src/AllBase.php	/^		$recordCount = count($cashes);$/;"	v
+recordCount	userselection/TradeBase/src/TradeBase.php	/^			$recordCount = count($cashes);$/;"	v
+result	mgr/application/controllers/Exp.php	/^            $result = "err";$/;"	v
+result	mgr/application/controllers/Exp.php	/^            $result = "ok";$/;"	v
+result	mgr/application/controllers/Module.php	/^        $result = $search->exec();$/;"	v
+result	userselection/TradePassRate/src/TradePassRate.php	/^        $result = "";$/;"	v
+result	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^		$result = "";$/;"	v
+results	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^        $results = "";$/;"	v
+results	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^		$results = mysql_query($userTradeQuery, $this->_mysqlConnection);$/;"	v
+results	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^        $results = mysql_query($userConsumeQuery, $this->_mysqlConnection);$/;"	v
+ruleCandidateList	userselection/TradePassRate/src/TradePassRate.php	/^        $ruleCandidateList = $this->getRuleCandidateList($ruleIds);$/;"	v
+ruleCandidateList	userselection/TradePassRate/src/TradePassRate.php	/^        $ruleCandidateList = array();$/;"	v
+ruleIds	userselection/TradePassRate/src/TradePassRate.php	/^        $ruleIds = $this->getEffectRules();$/;"	v
+ruleIds	userselection/TradePassRate/src/TradePassRate.php	/^        $ruleIds = array();$/;"	v
+ruleIds	userselection/TradePassRate/src/TradePassRate.php	/^        $ruleIds = array_values($ruleIds);$/;"	v
+ruleRecords	userselection/TradePassRate/src/TradePassRate.php	/^            $ruleRecords = mysql_query($querySql, $this->_mysqlConnection);$/;"	v
+runtime	mgr/application/controllers/Exp.php	/^        $runtime = trim($this->getRequest()->get("runtime"));$/;"	v
+scriptDir	userselection/AllBase/src/allBaseCalculation.php	/^$scriptDir = realpath(dirname(__FILE__))."\/";$/;"	v
+scriptDir	userselection/ConsumeIncRateChk/src/consumeIncreaseRateChecking.php	/^$scriptDir = realpath(dirname(__FILE__))."\/";$/;"	v
+scriptDir	userselection/ConsumeIncRateTradeChk/src/consumeIncreaseRateTradeChecking.php	/^$scriptDir = realpath(dirname(__FILE__))."\/";$/;"	v
+scriptDir	userselection/ConsumeSequencePass/src/consumeSequencePassCheck.php	/^$scriptDir = realpath(dirname(__FILE__))."\/";$/;"	v
+scriptDir	userselection/TradeBase/src/tradeBaseCalculation.php	/^$scriptDir = realpath(dirname(__FILE__))."\/";$/;"	v
+scriptDir	userselection/TradeConsumeLevel/src/tradeConsumeLevelCalculation.php	/^$scriptDir = realpath(dirname(__FILE__))."\/";$/;"	v
+scriptDir	userselection/TradeLowerLimit/src/tradeLowerLimitCalculation.php	/^$scriptDir = realpath(dirname(__FILE__))."\/";$/;"	v
+scriptDir	userselection/TradePassRate/src/tradePassRateCalculation.php	/^$scriptDir = realpath(dirname(__FILE__))."\/";$/;"	v
+scriptDir	userselection/UserConsumeIncreaseRate/src/userConsumeIncreaseRate.php	/^$scriptDir = realpath(dirname(__FILE__))."\/";$/;"	v
+scriptDir	userselection/UserMonthConsume/src/userMonthConsumeCalculation.php	/^$scriptDir = realpath(dirname(__FILE__))."\/";$/;"	v
+search	mgr/application/controllers/Module.php	/^        $search = new Mgr_Module_Search($query);$/;"	v
+select	library/Sep/Dao/ModelAbstract.php	/^            $select = $this->_getAdapter()->select();$/;"	v
+select	library/Sep/Dao/ModelAbstract.php	/^            $select = $where;$/;"	v
+serialize	mgr/asset/js/jquery.treeview.js	/^			function serialize() {$/;"	f
+setHash	chart/bin-debug/history/history.js	/^    function setHash(hash) {$/;"	f
+setHash	chart/html-template/history/history.js	/^    function setHash(hash) {$/;"	f
+setURL	chart/bin-debug/history/history.js	/^function setURL(url)$/;"	f
+setURL	chart/html-template/history/history.js	/^function setURL(url)$/;"	f
+showExpInfo	mgr/application/views/exp/index.phtml	/^function showExpInfo(resp) {$/;"	f
+showModuleInfo	mgr/application/views/module/index.phtml	/^function showModuleInfo(resp) {$/;"	f
+smarty	mgr/application/Bootstrap.php	/^        $smarty = new Mgr_Smarty_Adapter(null, Ap_Registry::get("config")->get("smarty"));$/;"	v
+sql	library/Sep/Dao/ModelAbstract.php	/^                $sql = $this->_trimLastComma($sql);$/;"	v
+sql	library/Sep/Dao/ModelAbstract.php	/^            $sql = "INSERT INTO " . $this->_quoteIdentifier($this->_tableName, true)$/;"	v
+sql	library/Sep/Dao/ModelAbstract.php	/^            $sql = $this->_trimLastComma($sql);$/;"	v
+sql	library/Sep/Dao/ModelAbstract.php	/^        $sql = "DELETE FROM " . $this->_quoteIdentifier($this->_getTableSpec(), true);$/;"	v
+sql	library/Sep/Dao/ModelAbstract.php	/^        $sql = "UPDATE " . $this->_quoteIdentifier($this->_getTableSpec(), true) . " SET ";$/;"	v
+sql	library/Sep/Dao/ModelAbstract.php	/^        $sql = $this->_trimLastComma($sql);$/;"	v
+sql	mgr/application/library/Mgr/Util/DBListener.php	/^        $sql = $e->getSql();$/;"	v
+sql	tests/Test/Abstract.php	/^        $sql = new PTest_Constraint_Sql($sql);$/;"	v
+sql	tests/Test/Sep/Dao/ModelAbstract.php	/^        $sql = 'SELECT `coupon_consume`.* FROM `MP_COUPON`.`coupon_consume` WHERE (uid = \\'76\\') ORDER BY `id` ASC LIMIT 1';$/;"	v
+sql	tests/Test/Sep/Dao/ModelAbstract.php	/^        $sql = 'SELECT `coupon_consume`.* FROM `MP_COUPON`.`coupon_consume` WHERE (uid = \\'76\\') ORDER BY `id` ASC';$/;"	v
+stmt	tests/Test/Abstract.php	/^        $stmt = new $stmtCls();$/;"	v
+stmt	tests/Test/Abstract.php	/^        $stmt = new $stmtCls(null, null);$/;"	v
+stmtCls	tests/Test/Abstract.php	/^        $stmtCls = $this->getSimpleImpl("Zend_Db_Statement");$/;"	v
+stmtCls	tests/Test/Abstract.php	/^        $stmtCls = PTest_BMockFactory::getSimpleImpl("Zend_Db_Statement_Interface");$/;"	v
+stmtMock	tests/Test/Abstract.php	/^        $stmtMock = $this->getMock($stmtCls);$/;"	v
+stmtMock	tests/Test/Abstract.php	/^        $stmtMock = PTest_BMockFactory::getMock($stmtCls);$/;"	v
+testLoader	tests/test.inc.php	/^class testLoader extends Baidu_Util_ClassLoader {$/;"	c
+title	mgr/application/controllers/Exp.php	/^        $title = strval($this->getRequest()->get("title"));$/;"	v
+title	mgr/application/controllers/Exp.php	/^        $title = trim($this->getRequest()->get("title"));$/;"	v
+title	mgr/application/controllers/Module.php	/^        $title = strval($this->getRequest()->get("title"));$/;"	v
+title	mgr/application/controllers/Module.php	/^        $title = trim($this->getRequest()->get("title"));$/;"	v
+toggler	mgr/asset/js/jquery.treeview.js	/^			function toggler() {$/;"	f
+tradeBase	userselection/TradeBase/src/TradeBase.php	/^		$tradeBase = "";$/;"	v
+tradeBaseCalculation	userselection/TradeBase/src/tradeBaseCalculation.php	/^$tradeBaseCalculation = new TradeBase();$/;"	v
+tradeBaseLine	userselection/TradeConsumeLevel/src/TradeConsumeLevel.php	/^            $tradeBaseLine = trim(stream_get_line($fp, LINE_LIMIT, "\\n"));$/;"	v
+tradeBaseLine	userselection/TradeLowerLimit/src/TradeLowerLimit.php	/^			$tradeBaseLine = trim(stream_get_line($fp, LINE_LIMIT, "\\n"));$/;"	v
+tradeCandidateUsers	userselection/TradePassRate/src/TradePassRate.php	/^        $tradeCandidateUsers = $this->_convertToTradeInfo($ruleCandidateList, $userTrade);$/;"	v
+tradeCashes	userselection/TradeBase/src/TradeBase.php	/^		$tradeCashes = $this->getTradeCashes();$/;"	v
+tradeCashes	userselection/TradeBase/src/TradeBase.php	/^		$tradeCashes = array();$/;"	v
+tradeConsumeLevel	userselection/TradeConsumeLevel/src/tradeConsumeLevelCalculation.php	/^$tradeConsumeLevel = new TradeConsumeLevel();$/;"	v
+tradeId	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^			$tradeId = $userTrades[$uid];$/;"	v
+tradeId	userselection/TradePassRate/src/TradePassRate.php	/^                $tradeId = $userTrade[$uid];$/;"	v
+tradeId	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^    		$tradeId = $userTrades[$uid];$/;"	v
+tradeIncreaseRatesBase	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^		$tradeIncreaseRatesBase = array();$/;"	v
+tradeInfo	userselection/TradePassRate/src/TradePassRate.php	/^            $tradeInfo = trim(stream_get_line($fp, LINE_LIMIT, "\\n"));$/;"	v
+tradeInfo	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^		$tradeInfo = "";$/;"	v
+tradeIssuedCouponIssues	userselection/TradePassRate/src/TradePassRate.php	/^        $tradeIssuedCouponIssues = $this->_convertToTradeInfo($issuedCouponUsers, $userTrade);$/;"	v
+tradeLowerBase	userselection/TradeConsumeLevel/src/TradeConsumeLevel.php	/^		$tradeLowerBase = "";$/;"	v
+tradeLowerBase	userselection/TradeLowerLimit/src/TradeLowerLimit.php	/^		$tradeLowerBase = "";$/;"	v
+tradeLowerLimit	userselection/TradeLowerLimit/src/tradeLowerLimitCalculation.php	/^$tradeLowerLimit = new TradeLowerLimit();$/;"	v
+tradePassRate	userselection/TradePassRate/src/TradePassRate.php	/^        $tradePassRate = array();$/;"	v
+tradePassRateCalculation	userselection/TradePassRate/src/tradePassRateCalculation.php	/^$tradePassRateCalculation = new TradePassRate($curDate);$/;"	v
+tradeRates	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^		$tradeRates = array();$/;"	v
+tradeUsers	userselection/TradePassRate/src/TradePassRate.php	/^        $tradeUsers = array();$/;"	v
+treeController	mgr/asset/js/jquery.treeview.js	/^			function treeController(tree, control) {$/;"	f
+treeData	mgr/application/models/ExpCls.php	/^        $treeData = $this->getTree();$/;"	v
+treeData	mgr/application/models/ExpCls.php	/^        $treeData = array();$/;"	v
+treeData	mgr/application/models/ModuleCls.php	/^        $treeData = $this->getTree();$/;"	v
+treeData	mgr/application/models/ModuleCls.php	/^        $treeData = array();$/;"	v
+treeView	mgr/application/controllers/Exp.php	/^        $treeView = $cls->getTreeView();$/;"	v
+treeView	mgr/application/controllers/Module.php	/^        $treeView = $cls->getTreeView(ModuleClsModel::TYPE_FLEX);$/;"	v
+treeView	mgr/application/controllers/Module.php	/^        $treeView = $cls->getTreeView(ModuleClsModel::TYPE_HTML);$/;"	v
+uid	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^			$uid = $userConsume['uid'];$/;"	v
+uids	userselection/ConsumeIncRateChk/src/IncreaseRateAllChecking.php	/^		$uids = array_keys($userConsumeRates);$/;"	v
+uids	userselection/ConsumeIncRateChk/src/IncreaseRateAllChecking.php	/^		$uids = array_slice($uids, 0, $index);$/;"	v
+uids	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^        	$uids = array();$/;"	v
+uids	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^                $uids = array_intersect($uids, $candidateList[$index++]);$/;"	v
+uids	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^            $uids = $candidateList[0];$/;"	v
+uids	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^        $uids = array();$/;"	v
+update	mgr/application/models/ExpInfo.php	/^            $update = array($/;"	v
+upload	mgr/application/controllers/Module.php	/^            $upload = new Mgr_Module_Upload($moduleId, $fileAttr['tmp_name']);$/;"	v
+uri	mgr/application/plugins/Login.php	/^        $uri = $request->getRequestUri();$/;"	v
+url	mgr/application/plugins/Login.php	/^        $url = substr($uri, strlen($baseUri) + 1);$/;"	v
+user	mgr/application/controllers/Exp.php	/^        $user = $this->getRequest()->get("user");$/;"	v
+user	mgr/application/controllers/Exp.php	/^        $user = Ap_Registry::get('loginUser');$/;"	v
+user	mgr/application/controllers/Module.php	/^        $user = Ap_Registry::get('loginUser');$/;"	v
+user	mgr/application/library/Mgr/AbstractController.php	/^        $user = Ap_Registry::get('loginUser');$/;"	v
+user	mgr/application/library/Mgr/User/Acct.php	/^        $user = new self($name);$/;"	v
+userConsume	userselection/AllBase/src/AllBase.php	/^			$userConsume = trim(stream_get_line($fp, LINE_LIMIT, "\\n"));$/;"	v
+userConsume	userselection/TradeBase/src/TradeBase.php	/^			$userConsume = stream_get_line($fp, LINE_LIMIT, "\\n");$/;"	v
+userConsume	userselection/UserMonthConsume/src/userMonthConsumeCalculation.php	/^$userConsume = new UserConsumeCalculation($curDate);$/;"	v
+userConsumeIncreaseRate	userselection/UserConsumeIncreaseRate/src/userConsumeIncreaseRate.php	/^$userConsumeIncreaseRate = new ConsumeIncreaseRate($curDate);$/;"	v
+userConsumeQuery	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^		$userConsumeQuery = "select * from all_data where month<=".$endDate." and month>=".$beginDate$/;"	v
+userConsumeRate	userselection/ConsumeIncRateChk/src/IncreaseRateAllChecking.php	/^			$userConsumeRate = rtrim(stream_get_line($fp, LINE_LIMIT, "\\n"));$/;"	v
+userConsumeRate	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^			$userConsumeRate = rtrim(stream_get_line($fp, LINE_LIMIT, "\\n"));$/;"	v
+userConsumeRates	userselection/ConsumeIncRateChk/src/IncreaseRateAllChecking.php	/^		$userConsumeRates = $this->getUserConsumeRates();$/;"	v
+userConsumeRates	userselection/ConsumeIncRateChk/src/IncreaseRateAllChecking.php	/^		$userConsumeRates = array();$/;"	v
+userConsumeRates	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^		$userConsumeRates = $this->getUserConsumeRates();$/;"	v
+userConsumeRates	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^		$userConsumeRates = array();$/;"	v
+userConsumes	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^		$userConsumes = array();$/;"	v
+userConsumes	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^        $userConsumes = $this->getUserConsumesGroupByMonth($userMonthConsumes);$/;"	v
+userConsumes	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^		$userConsumes = $this->fetchUserConsumeInfo($beginDate, $endDate);$/;"	v
+userConsumes	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^		$userConsumes = array();$/;"	v
+userMonthConsume	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^   			$userMonthConsume = trim(stream_get_line($fp, LINE_LIMIT, "\\n"));$/;"	v
+userMonthConsumes	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^		$userMonthConsumes = array();$/;"	v
+userMonthConsumes	userselection/UserConsumeIncreaseRate/src/ConsumeIncreaseRate.php	/^        $userMonthConsumes = $this->getUserMonthConsumes();$/;"	v
+userName	userselection/ConsumeSequencePass/src/ConsumeSequencePass.php	/^            $userName = $dbInfo->getElementsByTagName('username')->item(0)->nodeValue;$/;"	v
+userName	userselection/TradePassRate/src/TradePassRate.php	/^            $userName = $dbInfo->getElementsByTagName('username')->item(0)->nodeValue;$/;"	v
+userName	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^	        $userName = $dbInfo->getElementsByTagName('username')->item(0)->nodeValue;$/;"	v
+userTrade	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^			$userTrade = rtrim(stream_get_line($fp, LINE_LIMIT, "\\n"));$/;"	v
+userTrade	userselection/TradePassRate/src/TradePassRate.php	/^        $userTrade = $this->getUserTrade();$/;"	v
+userTrade	userselection/TradePassRate/src/TradePassRate.php	/^        $userTrade = array();$/;"	v
+userTradeInfo	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^		$userTradeInfo = $this->fetchUserTradeInfo();$/;"	v
+userTradeQuery	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^		$userTradeQuery = "select * from usertrade";$/;"	v
+userTrades	userselection/ConsumeIncRateTradeChk/src/IncreaseRateTradeChecking.php	/^		$userTrades = $this->getUserTrades();$/;"	v
+userTrades	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^		$userTrades = array();$/;"	v
+userTrades	userselection/UserMonthConsume/src/UserConsumeCalculation.php	/^        $userTrades = $this->fetchUserTradeInfo();$/;"	v
+validator	mgr/application/controllers/Exp.php	/^        $validator = new Mgr_Util_Validator_StringLen($/;"	v
+validator	mgr/application/controllers/Module.php	/^        $validator = new Mgr_Util_Validator_StringLen($/;"	v
+values	tests/Test/Sep/Dao/ModelAbstract.php	/^        $values = array($/;"	v
+view	mgr/application/models/ExpCls.php	/^            $view = $this->_genClsView($node);$/;"	v
+view	mgr/application/models/ExpCls.php	/^            $view = $this->_genExpView($node);$/;"	v
+view	mgr/application/models/ExpCls.php	/^        $view = "";$/;"	v
+view	mgr/application/models/ExpCls.php	/^        $view = '<li><span class="file" expid="__EXP_ID__"><a href="#">'$/;"	v
+view	mgr/application/models/ExpCls.php	/^        $view = '<li><span class="folder" clsid="__CLS_ID__">__TITLE__<\/span>';$/;"	v
+view	mgr/application/models/ExpCls.php	/^        $view = str_replace("__CLS_ID__", $node['id'], $view);$/;"	v
+view	mgr/application/models/ExpCls.php	/^        $view = str_replace("__EXP_ID__", $node['id'], $view);$/;"	v
+view	mgr/application/models/ExpCls.php	/^        $view = str_replace("__TITLE__", $node['title'], $view);$/;"	v
+view	mgr/application/models/ModuleCls.php	/^            $view = $this->_genClsView($node, $type);$/;"	v
+view	mgr/application/models/ModuleCls.php	/^            $view = $this->_genModuleView($node, $type);$/;"	v
+view	mgr/application/models/ModuleCls.php	/^            $view = '<li><span class="file" modid="__MODULE_ID__"><a href="#">'$/;"	v
+view	mgr/application/models/ModuleCls.php	/^            $view = '<li><span class="folder" clsid="__CLS_ID__">__TITLE__<\/span>';$/;"	v
+view	mgr/application/models/ModuleCls.php	/^            $view = '<node label="__TITLE__" type="module" modid="__MODULE_ID__" >';$/;"	v
+view	mgr/application/models/ModuleCls.php	/^            $view = '<node label="__TITLE__" type="modulecls" clsid="__CLS_ID__" >';$/;"	v
+view	mgr/application/models/ModuleCls.php	/^        $view = "";$/;"	v
+view	mgr/application/models/ModuleCls.php	/^        $view = str_replace("__CLS_ID__", $node['id'], $view);$/;"	v
+view	mgr/application/models/ModuleCls.php	/^        $view = str_replace("__MODULE_ID__", $node['id'], $view);$/;"	v
+view	mgr/application/models/ModuleCls.php	/^        $view = str_replace("__TITLE__", $node['title'], $view);$/;"	v
+walkThroughPath	tests/Test/All.php	/^function walkThroughPath($path) {$/;"	f
+where	mgr/application/library/Mgr/Module/Search.php	/^        $where = array($/;"	v
+where	tests/Test/Sep/Dao/ModelAbstract.php	/^        $where = array("uid = ?" => 76);$/;"	v
+wlist	userselection/TradePassRate/src/TradePassRate.php	/^            $wlist = $candidateList['wlist'];$/;"	v
+wlist	userselection/TradePassRate/src/TradePassRate.php	/^            $wlist = explode(',', $wlist);$/;"	v
+xmlData	mgr/application/controllers/Exp.php	/^        $xmlData = $this->getRequest()->get("xmlData");$/;"	v
+xmlData	mgr/application/controllers/Exp.php	/^        $xmlData = strval($this->getRequest()->get("data"));$/;"	v
+xmlId	mgr/application/models/ExpInfo.php	/^            $xmlId = $miscDataModel->add(array("data" => $xml));$/;"	v
+xmlId	mgr/application/models/ModuleInfo.php	/^            $xmlId = $miscDataModel->add(array("data" => $xml));$/;"	v

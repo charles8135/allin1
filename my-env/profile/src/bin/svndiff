@@ -1,0 +1,5 @@
+#!/bin/bash
+# remove the above 5 params
+shift 5
+
+vimdiff -f "$@"

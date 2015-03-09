@@ -1,0 +1,14 @@
+--- Svn Installation & Usage Guide ---
+--- Version 1.0.0, Author Liu Yue ---
+
+== 安装 ==
+
+运行：sh install.sh
+
+== 配置 ==
+
+所有配置都在conf.sh进行配置，install.sh中无任何与环境相关的配置项
+
+svndiff还是需要自行在./subversion中配置
+
+diff-command = svndiff

@@ -1,0 +1,22 @@
+--- MySQL Installation & Usage Guide ---
+--- Version 1.0.0, Author Liu Yue ---
+
+== 安装 ==
+
+运行：sh install.sh
+
+== 初始化 ==
+a. 创建授权表
+MYSQLPATH/bin/mysql_install_db --user=mysql --datadir=xxx 
+// 必须要指定datadir
+
+b. 启动mysql服务
+sbin/__sensitive__mysql.sh start
+
+c. 设置root密码
+./mysqladmin -uroot password 'shrimp' --socket=/home/users/liuyue01/var/mysql/mysql.6600.sock
+
+d. 关闭服务
+bin/mysqladmin -uroot -S /home/$USER/local/mysql/dr-sep/var/mysql.sock shutdown
+
+

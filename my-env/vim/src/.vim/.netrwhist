@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/liuyue/bin/xwork'
+let g:netrw_dirhist_2='/home/liuyue/vs-edu-dev/ui/lib/UrlEnc'
+let g:netrw_dirhist_3='/home/liuyue/vs-edu-svn/ui/modules/Edu/conf'
+let g:netrw_dirhist_4='/home/liuyue/tmp/test/coroutines'
+let g:netrw_dirhist_5='/home/liuyue/.jumbo'
+let g:netrw_dirhist_6='/home/liuyue/vs-edu-svn/ui/modules/Edu/library/Search/Card'
+let g:netrw_dirhist_7='/home/liuyue/vs-edu-svn/ui/modules/Edu/scripts'
+let g:netrw_dirhist_8='/home/liuyue/vs-edu-dev/ui/conf'

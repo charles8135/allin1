@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+
+// fcgi doesn't have STDIN and STDOUT defined by default
+defined('STDIN') or define('STDIN', fopen('php://stdin', 'r'));
+defined('STDOUT') or define('STDOUT', fopen('php://stdout', 'w'));
+
+require(__DIR__ . '/../bootstrap.php');
+
+require(__DIR__ . '/../vendor/framework/autoload.php');
+require(__DIR__ . '/../vendor/framework/yiisoft/yii2/Yii.php');
+
+$configPath = DIR_CONFIG . '/' . ENV . '/' . 'console.php'; 
+
+$config = require($configPath);
+
+$app = new yii\console\Application($config);
+$exitCode = $app->run();
+exit($exitCode);
