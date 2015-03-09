@@ -33,31 +33,3 @@ VV 10. 性能监控、统计
 
 11. 连接主从数据库和Model层
 
-
-Nginx配置示例
-
-server {
-    listen       8501;
-    server_name  liuyue.info  www.liuyue.info;
-    root   /home/liuyue/www-test;
-    access_log  /home/liuyue/var/log/nginx/sample.access.log main;
-
-    location / {
-        if (!-e $request_filename) {
-            rewrite ^(.*)$ /index.php?r=$1 last;
-            break;
-        }
-    }
-
-    location /favicon.ico {
-        rewrite http://www.baidu.com/favicon.ico last;
-    }
-
-    location ~ \.php$ {
-        fastcgi_pass   unix:/home/liuyue/my-local/sample-run/php.sock;
-        include        fastcgi_params;
-        fastcgi_param  SCRIPT_FILENAME $document_root$fastcgi_script_name;
-    }
-
-}
-

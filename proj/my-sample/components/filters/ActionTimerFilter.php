@@ -36,5 +36,4 @@ class ActionTimerFilter extends ActionFilter {
         return $result;
     }
 
-
 }
