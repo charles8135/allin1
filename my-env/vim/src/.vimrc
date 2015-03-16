@@ -281,3 +281,17 @@ map ti "=strftime("%Y-%m-%d %H:%M:%S")<CR>P
 noremap <C-J> :!tall<CR>
 map cc :call Run_PHP()<CR>
 map rr :NERDTreeToggle<CR>
+
+"增加注释
+
+let g:DoxygenToolkit_briefTag_pre="@Synopsis  " 
+let g:DoxygenToolkit_paramTag_pre="@Param " 
+let g:DoxygenToolkit_returnTag="@Returns   " 
+let g:DoxygenToolkit_blockHeader="--------------------------------------------------------------------------" 
+let g:DoxygenToolkit_blockFooter="----------------------------------------------------------------------------" 
+let g:DoxygenToolkit_authorName="liuyue01@baidu.com" 
+
+noremap <C-P> :DoxAuthor<CR>
+
+
+
