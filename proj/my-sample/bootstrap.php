@@ -18,5 +18,5 @@ defined('DIR_DATA') or define('DIR_DATA', DIR_ROOT . '/' . 'data');
 defined('DIR_FE') or define('DIR_FE', DIR_ROOT . '/' . 'fe');
 defined('DIR_MISC') or define('DIR_MISC', DIR_ROOT . '/' . 'misc');
 defined('DIR_VENDOR') or define('DIR_VENDOR', DIR_ROOT . '/' . 'vendor');
-defined('DIR_RUNTIME') or define('DIR_RUNTIME', DIR_ROOT . '/' . 'runtime');
+defined('DIR_RUNTIME') or define('DIR_RUNTIME',  '/home/liuyue/var/my-sample/' . 'runtime');
 

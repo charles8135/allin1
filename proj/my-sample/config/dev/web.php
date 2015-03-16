@@ -3,6 +3,7 @@
 $config = [
     'id' => 'liuyue-sample',    
     'basePath' => DIR_ROOT,
+    'runtimePath' => DIR_RUNTIME,
     'bootstrap' => [
         'log',
         'bb',
