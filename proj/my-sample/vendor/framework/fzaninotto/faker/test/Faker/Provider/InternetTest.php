@@ -37,11 +37,6 @@ class InternetTest extends \PHPUnit_Framework_TestCase
         $this->assertSame(preg_match($pattern, $emailaddress), 1);
     }
 
-    public function testPasswordIsValid()
-    {
-        $this->assertRegexp('/^.{6}$/', $this->faker->password(6,6));
-    }
-
     public function testSlugIsValid()
     {
         $pattern = '/^[a-z0-9-]+$/';

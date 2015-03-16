@@ -1,8 +1,8 @@
-# Faker
+# Faker #
 
 Faker is a PHP library that generates fake data for you. Whether you need to bootstrap your database, create good-looking XML documents, fill-in your persistence to stress test it, or anonymize data taken from a production service, Faker is for you.
 
-Faker is heavily inspired by Perl's [Data::Faker](http://search.cpan.org/~jasonk/Data-Faker-0.07/), and by ruby's [Faker](https://rubygems.org/gems/faker).
+Faker is heavily inspired by Perl's [Data::Faker](http://search.cpan.org/~jasonk/Data-Faker-0.07/), and by ruby's [Faker](http://faker.rubyforge.org/).
 
 Faker requires PHP >= 5.3.3.
 
@@ -164,7 +164,6 @@ Each of the generator properties (like `name`, `address`, and `lorem`) are calle
     freeEmailDomain         // 'yahoo.com'
     safeEmailDomain         // 'example.org'
     userName                // 'wade55'
-    password                // 'k&|X+a45*2['
     domainName              // 'wolffdeckow.net'
     domainWord              // 'feeney'
     tld                     // 'biz'
@@ -750,13 +749,13 @@ echo $faker->region; // "Saint-Pierre-et-Miquelon"
 <?php
 
 // Generates a 'kana' name
-echo $faker->kanaName; // "アオタ ミノル"
+echo $faker->kanaName; // "アオタ ナオコ"
 
 // Generates a 'kana' first name
-echo $faker->firstKanaName; // "ハルカ"
+echo $faker->firstKanaName; // "トモミ"
 
 // Generates a 'kana' last name
-echo $faker->lastKanaName; // "ナカジマ"
+echo $faker->lastKanaName; // "ナギサ"
 ```
 
 ### `Faker\Provider\pl_PL\Person`
@@ -841,44 +840,6 @@ echo $faker->tollFreePhoneNumber; // "0800123456"
 // Generates a random premium-rate phone number
 echo $faker->premiumRatePhoneNumber; // "0900123456"
 ```
-
-### `Faker\Provider\en_NZ\Phone`
-
-```php
-<?php
-
-// Generates a cell (mobile) phone number
-echo $faker->cellNumber; // "021 123 4567"
-
-// Generates a toll free number
-echo $faker->tollFreeNumber; // "0800 123 456"
-
-// Area Code
-echo $faker->areaCode; // "03"
-```
-
-### `Faker\Provider\sv_SE\Person`
-```php
-<?php
-
-//Generates a valid Swedish personal identity number (in Swedish - Personnummer)
-echo $faker->personalIdentityNumber() // '950910-0799'
-
-//Since the numbers are different for male and female persons, optionally you can specify gender.
-echo $faker->personalIdentityNumber('female') // '950910-0781'
-
-```
-
-## Third-Party Libraries Extending/Based On Faker
-
-* [BazingaFakerBundle](https://github.com/willdurand/BazingaFakerBundle): Put the awesome Faker library into the Symfony2 DIC and populate your database with fake data.
-* [FakerServiceProvider](https://github.com/EmanueleMinotto/FakerServiceProvider): Faker Service Provider for Silex
-* [faker-cli](https://github.com/bit3/faker-cli): Command Line Tool for the Faker PHP library
-* [AliceFixturesBundle](https://github.com/h4cc/AliceFixturesBundle): A Symfony2 bundle for using Alice and Faker with data fixtures. Abled to use Doctrine ORM as well as Doctrine MongoDB ODM.
-* [CompanyNameGenerator](https://github.com/fzaninotto/CompanyNameGenerator): Generate names for English tech companies with class
-* [datalea](https://github.com/spyrit/datalea) A highly customizable random test data generator web app
-* [newage-ipsum](https://github.com/frequenc1/newage-ipsum): A new aged ipsum provider for the faker library inspired by http://sebpearce.com/bullshit/
-* [xml-faker](https://github.com/prewk/xml-faker): Create fake XML with Faker
 
 ## License
 

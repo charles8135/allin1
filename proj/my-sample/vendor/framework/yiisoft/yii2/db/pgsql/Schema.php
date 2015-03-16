@@ -59,8 +59,8 @@ class Schema extends \yii\db\Schema
 
         'real' => self::TYPE_FLOAT,
         'float4' => self::TYPE_FLOAT,
-        'double precision' => self::TYPE_FLOAT,
-        'float8' => self::TYPE_FLOAT,
+        'double precision' => self::TYPE_DOUBLE,
+        'float8' => self::TYPE_DOUBLE,
         'decimal' => self::TYPE_DECIMAL,
         'numeric' => self::TYPE_DECIMAL,
 
@@ -425,7 +425,7 @@ SQL;
         $column->name = $info['column_name'];
         $column->precision = $info['numeric_precision'];
         $column->scale = $info['numeric_scale'];
-        $column->size = $info['size'] === null ? null : (int)$info['size'];
+        $column->size = $info['size'] === null ? null : (int) $info['size'];
         if (isset($this->typeMap[$column->dbType])) {
             $column->type = $this->typeMap[$column->dbType];
         } else {
