@@ -5,7 +5,9 @@ namespace app\modules\basic\controllers;
 use app\components\yii\Controller;
 use app\libs\util;
 use app\libs\util\Profiler;
-use app\modules\basic\services;
+use app\modules\basic\models;
+use app\modules\basic\logics;
+
 
 class IndexController extends Controller {
 
@@ -57,4 +59,11 @@ class IndexController extends Controller {
         ];
         $this->render('demo.tpl', $data);
     }
+
+    public function actionDb() {
+        $db = \Yii::$app->db;
+        $result = $db->createCommand("select * from user_info")->queryAll();
+        var_dump($result);
+    }
+
 }

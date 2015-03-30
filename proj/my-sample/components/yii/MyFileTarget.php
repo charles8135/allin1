@@ -5,6 +5,14 @@ namespace app\components\yii;
 use yii\log;
 use yii\web\Request;
 
+/**
+ * @file MyFileTarget.php
+ * @Synopsis  对Yii的日志内容结构进行重构
+ * @author liuyue01@baidu.com
+ * @version 1.0.0
+ * @date 2015-03-16
+ */
+
 class MyFileTarget extends log\FileTarget {
 
     public function getMessagePrefix($message) {

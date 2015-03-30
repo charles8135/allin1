@@ -4,16 +4,19 @@ $config = [
     'id' => 'liuyue-sample',    
     'basePath' => DIR_ROOT,
     'runtimePath' => DIR_RUNTIME,
+
     'bootstrap' => [
         'log',
         'bb',
     ],
     'components' => [
+
+        'db' => require_once(__DIR__ . '/db.php'),
+
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
                 [
-                //'class' => 'yii\log\FileTarget',
                     'class' => 'app\components\yii\MyFileTarget',
                     'levels' => ['trace', 'profile', 'info'],
                     'logFile'=> DIR_RUNTIME . '/logs/app.log',
@@ -52,9 +55,7 @@ $config = [
     'modules' => [
         'basic' => [
             'class' => 'app\modules\basic\Module',
-            'params' => [
-                1
-            ],
+            'params' => [ ],
         ],
         'monitor' => [
             'class' => 'app\modules\monitor\Module',
@@ -79,6 +80,7 @@ $config = [
     'on beforeRequest' => function($event) {
         \Yii::$app->bb->initReqInfo();
     },
+
 
 ];
 
