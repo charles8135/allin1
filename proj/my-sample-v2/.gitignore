@@ -1,0 +1,6 @@
+# Ignore vendor
+vendor/*
+
+# Ignore vim swaps
+*.swp
+*.swo
