@@ -1,6 +1,11 @@
 #!/usr/bin/env php
 <?php
 
+/**
+ * 使用方法: php yii basic/test/index
+ */
+
+
 // fcgi doesn't have STDIN and STDOUT defined by default
 defined('STDIN') or define('STDIN', fopen('php://stdin', 'r'));
 defined('STDOUT') or define('STDOUT', fopen('php://stdout', 'w'));

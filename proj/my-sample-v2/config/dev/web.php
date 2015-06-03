@@ -54,7 +54,7 @@ $config = [
 
     'modules' => [
         'basic' => [
-            'class' => 'app\modules\basic\Module',
+            'class' => 'app\modules\basic\WebModule',
             'params' => [ ],
         ],
         'monitor' => [
