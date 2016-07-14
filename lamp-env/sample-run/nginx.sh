@@ -3,9 +3,9 @@
 ### Need Change
 BASE_USER=$USER
 BASE_DIR="/home/$BASE_USER/var/www-run/nginx"
-NGINX_DIR="/home/$BASE_USER/my-local/nginx"
-
 NGINX_CONF_FILE=$BASE_DIR"/conf/nginx.conf"
+
+NGINX_DIR="/home/$BASE_USER/my-local/nginx"
 nginx=$NGINX_DIR"/sbin/nginx"
 
 configtest() {
@@ -15,7 +15,7 @@ configtest() {
 function start(){
   configtest || return $?
   echo "mynginx start..."
-  $nginx -p $BASE_DIR/
+  $nginx -p $BASE_DIR -c $NGINX_CONF_FILE
   retval=$?
   [ $retval -eq 0 ] || echo "start failed"
   return $retval
@@ -23,7 +23,7 @@ function start(){
 
 function stop(){
   echo "mynginx stop..."
-  $nginx -s stop -p $BASE_DIR/
+  $nginx -s stop -p $BASE_DIR -c $NGINX_CONF_FILE
   retval=$?
   [ $retval -eq 0 ] || echo "stop failed"
   return $retval

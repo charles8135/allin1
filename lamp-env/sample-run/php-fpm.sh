@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BASE_USER=$USER
-BASE_DIR="/home/$BASE_USER/var/www-run"
+BASE_DIR="/home/$BASE_USER/var/www-run/php"
 FPM_CONF_FILE=$BASE_DIR"/fpm.conf"
 PHP_CONF_FILE=$BASE_DIR"/php.ini"
 FPM_PID_FILE=$BASE_DIR"/php.pid"
