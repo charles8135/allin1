@@ -1,9 +1,9 @@
 <?php
 
-$config_map = array(
+return array(
     1 => array(
-        'host' => '127.0.0.1:6600',
-        'user' => 'user',
-        'passwd' => 'passwd',
+        'host' => '10.48.20.183:6600',
+        'user' => 'www_wr',
+        'passwd' => 'www_wr',
     ),
 );
