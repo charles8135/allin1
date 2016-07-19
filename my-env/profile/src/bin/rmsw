@@ -1,8 +1,10 @@
 #!/bin/bash
 
 if [ $# == 1 -a "$1" == "del" ]; then
-    find ./ -name '*.sw*' |xargs rm -rf
+    find ./ -name '*.swp' |xargs rm -rf
+    find ./ -name '*.swo' |xargs rm -rf
 else 
-    find ./ -name '*.sw*'
+    find ./ -name '*.swp'
+    find ./ -name '*.swo'
 fi
     
