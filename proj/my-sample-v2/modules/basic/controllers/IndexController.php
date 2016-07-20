@@ -11,6 +11,7 @@ use app\modules\basic\logics;
 
 class IndexController extends Controller {
 
+    /*
     protected function _filters() {
         return [
             [
@@ -18,6 +19,7 @@ class IndexController extends Controller {
             ],
         ];
     }
+    */
 
     public function actionEcho() {
         Profiler::begin(__METHOD__);
@@ -27,6 +29,7 @@ class IndexController extends Controller {
         \Yii::info($msg, $key);
         \Yii::warning('xxxxxxxxxxxxxxxxx', 'SOMETHING_WARNING');
         \Yii::error('xxxxxxxxxxxxxxxxx', 'SOMETHING_ERROR');
+        var_dump('echo');
         Profiler::end(__METHOD__);
         Profiler::log(__METHOD__);
     }
@@ -65,7 +68,7 @@ class IndexController extends Controller {
 
     public function actionDb() {
         $db = \Yii::$app->db;
-        $result = $db->createCommand("select * from user_info")->queryAll();
+        $result = $db->createCommand("select * from room_info")->queryAll();
         var_dump($result);
     }
 
