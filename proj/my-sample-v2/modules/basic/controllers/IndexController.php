@@ -22,7 +22,11 @@ class IndexController extends Controller {
     public function actionEcho() {
         Profiler::begin(__METHOD__);
         sleep(1);
-        \Yii::info("liuyue test", "value");
+        $key = 'TEST_KEY';
+        $msg = 'INFO balabala';
+        \Yii::info($msg, $key);
+        \Yii::warning('xxxxxxxxxxxxxxxxx', 'SOMETHING_WARNING');
+        \Yii::error('xxxxxxxxxxxxxxxxx', 'SOMETHING_ERROR');
         Profiler::end(__METHOD__);
         Profiler::log(__METHOD__);
     }

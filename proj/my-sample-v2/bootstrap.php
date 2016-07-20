@@ -8,6 +8,7 @@
 define('ENV', 'dev');
 defined('YII_DEBUG') or define('YII_DEBUG', true);
 
+defined('DIR_RUNTIME') or define('DIR_RUNTIME', '/home/liuyue01/var/www-log/runtime');
 
 $cur_dir = __DIR__;
 defined('DIR_ROOT') or define('DIR_ROOT', $cur_dir);
@@ -18,7 +19,6 @@ defined('DIR_DATA') or define('DIR_DATA', DIR_ROOT . '/' . 'data');
 defined('DIR_FE') or define('DIR_FE', DIR_ROOT . '/' . 'fe');
 defined('DIR_MISC') or define('DIR_MISC', DIR_ROOT . '/' . 'misc');
 defined('DIR_VENDOR') or define('DIR_VENDOR', DIR_ROOT . '/' . 'vendor');
-defined('DIR_RUNTIME') or define('DIR_RUNTIME',  '/home/liuyue/var/my-sample/' . 'runtime');
 
 //NOTICE 加载autoload 和 yii初始类
 require(__DIR__ . '/vendor/autoload.php');

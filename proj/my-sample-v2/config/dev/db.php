@@ -2,18 +2,18 @@
 
 return [
     'class' => '\yii\db\Connection',
-    'dsn' => 'mysql:host=127.0.0.1;port=6600;dbname=my_test',
-    'username' => 'root',
-    'password' => 'shrimp',
+    'dsn' => 'mysql:host=127.0.0.1;port=6600;dbname=www_db',
+    'username' => 'www_wr',
+    'password' => 'www_wr',
 
     'slaveConfig' => [
-        'username' => 'root',
-        'password' => 'shrimp',
+        'username' => 'www_wr',
+        'password' => 'www_wr',
     ],
 
     'slaves' => [
         [
-            'dsn' => 'mysql:host=127.0.0.1;port=6601;dbname=my_test',
+            'dsn' => 'mysql:host=127.0.0.1;port=6600;dbname=www_db',
         ],
     ],
 ];
