@@ -16,6 +16,8 @@ $config = [
 
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
+            //NOTICE 缓存大小
+            'flushInterval' => 1,
             'targets' => [
                 [
                     'class' => 'app\components\yii\MyFileTarget',
@@ -24,12 +26,14 @@ $config = [
                     //NOTICE Yii 默认会打印['_GET', '_POST', '_FILES', '_COOKIE', '_SESSION',
                     //       '_SERVER']，将logVars配置为空数组，则不进行打印
                     'logVars' => [],
+                    'exportInterval' => 1,
                 ],
                 [
                     'class' => 'app\components\yii\MyFileTarget',
                     'levels' => ['error', 'warning'],
                     'logFile'=> DIR_RUNTIME . '/logs/app.log.wf',
                     'logVars' => [],
+                    'exportInterval' => 1,
                 ],
             ],
         ],
