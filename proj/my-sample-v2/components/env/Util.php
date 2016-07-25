@@ -15,4 +15,10 @@ class Util {
     public static function getReqId() {
         return intval(microtime(true) * 1000000) . mt_rand(100, 999);    
     }
+
+    public static function logEx($e) {
+        $stack = str_replace("\n", "\t", $e->getTraceAsString());
+        $key = "LOG_EX_STACK";
+        \Yii::warning($stack, $key);
+    }
 }
