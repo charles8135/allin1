@@ -21,6 +21,11 @@ class IndexController extends Controller {
     }
     */
 
+    public function actionRoom() {
+        $listObj = new logics\room\ListHandler();
+        $listObj->handle();
+    }
+
     public function actionEcho() {
         Profiler::begin(__METHOD__);
         sleep(1);

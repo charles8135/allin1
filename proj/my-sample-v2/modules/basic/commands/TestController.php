@@ -7,7 +7,9 @@ use yii\console\Controller;
 class TestController extends Controller {
 
     public function actionIndex() {
-        echo "hello world from " . __METHOD__ . "\n";    
+        $e = new \app\components\env\BizException('xxxx');
+        $e->logEx();
+        var_dump(111);
     }
 
 }
