@@ -4,6 +4,8 @@
  * 整个Yii工程的全局bootstrap 
  */
 
+ini_set('date.timezone','Asia/Shanghai');
+
 //NOTICE 配置当前env类别，以及是否开启debug
 define('ENV', 'dev');
 defined('YII_DEBUG') or define('YII_DEBUG', true);
