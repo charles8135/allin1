@@ -12,18 +12,33 @@ class RoomController extends Controller {
     public function actionCrabList() {
         $listUrls = logics\room\Config::$START_LIST;
 
-        $listObj = new logics\room\ListHandler($listUrls);
-        $listObj->handle();
-        $roomUrlList = $listObj->getRes();
+        $listHandler = new logics\room\ListHandler($listUrls);
+        $listHandler->handle();
+        $roomUrlList = $listHandler->getRes();
 
-        $infoObj = new logics\room\InfoHandler($roomUrlList);
-        $infoObj->handle();
+        $roomInfoHandler = new logics\room\InfoHandler($roomUrlList);
+        $roomInfoHandler->handle();
+
+        //NOTICE 针对失败的情况，重试一次
+        $key = 'ROOM_HANLDE_RETRY';
+        $msg = 'Retry Begin';
+        \Yii::info($msg, $key);
+
+        $failList = $roomInfoHandler->getFailList();
+        $roomInfoHandler = new logics\room\InfoHandler($failList);
+        $roomInfoHandler->handle();
+
+        $msg = 'Retry End';
+        \Yii::info($msg, $key);
 
     }
 
-    public function actionTest() {
-        $room = models\RoomInfo::findOne(4);
-        var_dump($room);
+    public function actionRedo() {
+        $list = array(
+            'http://bj.lianjia.com/ershoufang/101100322502.html',
+        );
+        $infoObj = new logics\room\InfoHandler($list);
+        $infoObj->handle();
     }
 
 }

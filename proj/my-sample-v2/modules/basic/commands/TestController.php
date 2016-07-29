@@ -12,4 +12,9 @@ class TestController extends Controller {
         var_dump(111);
     }
 
+    public function actionRedis() {
+        $redis = new \Redis();
+        var_dump($redis);
+    }
+
 }

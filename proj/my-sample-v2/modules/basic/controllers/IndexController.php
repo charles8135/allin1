@@ -22,8 +22,8 @@ class IndexController extends Controller {
     */
 
     public function actionRoom() {
-        $listObj = new logics\room\ListHandler();
-        $listObj->handle();
+        echo "SELECT * FROM `room_info` WHERE `room_nianxian` LIKE '满五年' AND `room_weiyi` LIKE '唯一住宅' and
+            `room_mianji` >85 and`room_nianling` >2000 ORDER BY `room_info`.`room_guanzhu` DESC";
     }
 
     public function actionEcho() {

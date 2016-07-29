@@ -16,7 +16,7 @@ use app\modules\basic\models;
 class InfoHandler {
     
     protected $_urlList = array();
-
+    protected $_failList = array();
     protected $_roomHtml = '';
 
     protected $_roomInfo = array(
@@ -50,6 +50,10 @@ class InfoHandler {
         $this->_urlList = $urls;
     }
 
+    public function getFailList() {
+        return $this->_failList;         
+    }
+
     public function handle() {
         $suc = 0;
         $fail = 0;
@@ -65,6 +69,8 @@ class InfoHandler {
                 $this->_otherInfo();
                 $this->_saveInfo();
 
+                usleep(300 * 1000);
+
                 $suc++;
                 $key = 'HANDLE_ROOM_INFO_OK';
                 $msg = "[roomUrl: $roomUrl]";
@@ -76,6 +82,7 @@ class InfoHandler {
                 $msg = "[roomUrl: $roomUrl]";
                 \Yii::warning($msg, $key);
                 $fail++;
+                $this->_failList[] = $roomUrl;
                 continue;
             }
         }
