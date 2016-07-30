@@ -69,6 +69,7 @@ class InfoHandler {
                 $this->_otherInfo();
                 $this->_saveInfo();
 
+                //NOTICE 间隔一段时间，简单的防屏蔽策略
                 usleep(300 * 1000);
 
                 $suc++;

@@ -1,7 +1,5 @@
 <?php
 
-namespace util;
-
 /**
  * @file Misc.php
  * @Synopsis Misc类，一些通用方法放在这里
@@ -9,6 +7,8 @@ namespace util;
  * @version 1.0.0
  * @date 2015-03-26
  */
+
+namespace app\libs\util;
 
 class Misc {
 

@@ -51,6 +51,10 @@ $config = [
         ],
     ],
 
+    'params' => [
+        'baidu-lbs-key' => 'Zji0Nnih76KNWLoHfvKEDqt0',
+    ],
+
 ];
 
 if (YII_ENV_DEV) {

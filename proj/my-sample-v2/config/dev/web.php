@@ -75,6 +75,7 @@ $config = [
         'filters' => [
             'app\components\filters\ActionTimerFilter',
         ],
+        'baidu-lbs-key' => 'Zji0Nnih76KNWLoHfvKEDqt0',
     ],
 
     'on beforeRequest' => function($event) {

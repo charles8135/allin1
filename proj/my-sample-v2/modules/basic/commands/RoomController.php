@@ -41,4 +41,14 @@ class RoomController extends Controller {
         $infoObj->handle();
     }
 
+    public function actionChoose() {
+        $handler = new  logics\room\ChooseHandler();
+        $handler->handle();
+    }
+
+    public function actionPrice() {
+        $handler = new logics\room\ChooseHandler();
+        $handler->priceStat();
+    } 
+
 }

@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * @file Profiler.php
+ * @Synopsis  性能监控记录类
+ * @author charles8135@gmail.com
+ * @version 1.0.0
+ * @date 2016-07-30
+ */
+
 namespace app\libs\util;
 
 class Profiler {
