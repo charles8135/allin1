@@ -3,7 +3,7 @@
 /**
  * @file ChooseHandler.php
  * @Synopsis 房屋判断选择类
- * @author liuyue01@baidu.com
+ * @author charles8135@gmail.com
  * @version 1.0.0
  * @date 2016-07-29
  */

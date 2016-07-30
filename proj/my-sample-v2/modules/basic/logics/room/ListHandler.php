@@ -3,7 +3,7 @@
 /**
  * @file List.php
  * @Synopsis 根据种子URL列表，获取房屋List
- * @author liuyue01@baidu.com
+ * @author charles8135@gmail.com
  * @version 
  * @date 2016-07-21
  */

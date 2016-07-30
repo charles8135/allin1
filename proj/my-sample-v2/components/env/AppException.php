@@ -3,7 +3,7 @@
 /**
  * @file AppException.php
  * @Synopsis 自定义异常基类
- * @author liuyue01@baidu.com
+ * @author charles8135@gmail.com
  * @version 1.0.0
  * @date 2016-07-26
  */

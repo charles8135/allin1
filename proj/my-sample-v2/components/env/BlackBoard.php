@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * @file BlackBoard.php
+ * @Synopsis  自定义的黑板类，可以作为全局变量存储
+ * @author charles8135@gmail.com
+ * @version 1.0.0
+ * @date 2016-07-30
+ */
+
 namespace app\components\env;
 
 use app\components\env;

@@ -3,7 +3,7 @@
 /**
  * @file InfoHandler.php
  * @Synopsis  房屋信息解析处理
- * @author liuyue01@baidu.com
+ * @author charles8135@gmail.com
  * @version 1.0.0
  * @date 2016-07-25
  */

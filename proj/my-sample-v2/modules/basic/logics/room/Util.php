@@ -3,7 +3,7 @@
 /**
  * @file Util.php
  * @Synopsis 房屋处理逻辑通用工具函数
- * @author liuyue01@baidu.com
+ * @author charles8135@gmail.com
  * @version 1.0.0
  * @date 2016-07-21
  */
