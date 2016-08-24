@@ -52,7 +52,8 @@ $config = [
     ],
 
     'params' => [
-        'baidu-lbs-key' => 'Zji0Nnih76KNWLoHfvKEDqt0',
+        'baidu-lbs-key' => '7Btp56UbZtx5cvVUYf6qR8gi',
+        'baidu-lbs-sn' => 'TaCFpaOVj3pGmdw2LPeFofQQn4THd34f',
     ],
 
 ];

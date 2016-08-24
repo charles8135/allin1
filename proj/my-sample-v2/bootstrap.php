@@ -22,6 +22,13 @@ defined('DIR_FE') or define('DIR_FE', DIR_ROOT . '/' . 'fe');
 defined('DIR_MISC') or define('DIR_MISC', DIR_ROOT . '/' . 'misc');
 defined('DIR_VENDOR') or define('DIR_VENDOR', DIR_ROOT . '/' . 'vendor');
 
+//NOTICE 加入一些全局小函数
+function mytest($var) {
+    echo "//////TEST//////\n";
+    var_dump($var);
+    exit;
+}
+
 //NOTICE 加载autoload 和 yii初始类
 require(__DIR__ . '/vendor/autoload.php');
 require(__DIR__ . '/vendor/yiisoft/yii2/Yii.php');

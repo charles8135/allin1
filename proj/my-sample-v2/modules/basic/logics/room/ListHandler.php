@@ -11,6 +11,7 @@
 namespace app\modules\basic\logics\room;
 
 use app\components\env;
+use app\modules\basic\models;
 
 class ListHandler {
 
@@ -32,6 +33,7 @@ class ListHandler {
         foreach($this->_urls as $url) {
             try {
                 $this->_crabList($url);        
+                $this->_mergeDbList();        
             } catch (env\AppException $e) {
                 $e->logEx();
                 continue;
@@ -119,6 +121,14 @@ class ListHandler {
             $key = 'PARSE_ROOM_ADD';
             $msg = "[url: $url]";
             \Yii::info($msg, $key);
+        }
+    }
+
+    protected function _mergeDbList() {
+        //TEMP 暂时先merge所有的，后续将merge状态是0的
+        $rooms = models\RoomInfo::find()->all();
+        foreach($rooms as $room) {
+            $this->_roomList[$room->room_url] = $room->room_url;
         }
     }
 

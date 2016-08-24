@@ -20,8 +20,10 @@ class TestController extends Controller {
 
     public function actionTest() {
         $ak = \Yii::$app->params['baidu-lbs-key'];
-        $lbs = new util\LBS($ak);
-        $res = $lbs->getGeo("北京市朝阳万象新天四区");
+        $sn = \Yii::$app->params['baidu-lbs-sn'];
+        $lbs = new util\LBS($ak, $sn);
+        $res = $lbs->getDirection("北京市海淀区信息学院家属楼",
+                "北京市海淀区西北旺百度科技园1号楼");
         var_dump($res);
     }
 

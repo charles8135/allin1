@@ -33,22 +33,26 @@ class RoomController extends Controller {
 
     }
 
-    public function actionRedo() {
-        $list = array(
-            'http://bj.lianjia.com/ershoufang/101100322502.html',
-        );
+    public function actionTest() {
+        $ids = file('/home/liuyue01/var/room/bin/retry');
+        $ids = array_map('trim', $ids);
+        $ids = array(101091969814);
+        
+        foreach($ids as $id) {
+            $list[] = "http://bj.lianjia.com/ershoufang/$id.html";
+        }
         $infoObj = new logics\room\InfoHandler($list);
         $infoObj->handle();
     }
 
-    public function actionChoose() {
-        $handler = new  logics\room\ChooseHandler();
-        $handler->handle();
-    }
-
-    public function actionPrice() {
+    public function actionStat() {
         $handler = new logics\room\ChooseHandler();
-        $handler->priceStat();
+        $handler->someStat();
     } 
+
+    public function actionUpdateDistance() {
+        $handler = new logics\room\ChooseHandler();
+        $handler->updateDistance();
+    }
 
 }

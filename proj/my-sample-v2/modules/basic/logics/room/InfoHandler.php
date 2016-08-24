@@ -43,6 +43,7 @@ class InfoHandler {
         'nianling' => '',            
         'pubtime' => '',            
         'louceng' => '',            
+        'status' => '0',            
 
     );
 
@@ -63,10 +64,12 @@ class InfoHandler {
                 $msg = "[roomUrl: $roomUrl]";
                 \Yii::info($msg, $key);
 
-                $this->_initRoom();
-                $this->_roomInfo['url'] = $roomUrl;
-                $this->_parseInfo($roomUrl);
-                $this->_otherInfo();
+                $this->_initRoom($roomUrl);
+                $this->_preStatus();
+                if ($this->_roomInfo['status'] == 0) {
+                    $this->_parseInfo();
+                    $this->_otherInfo();
+                }
                 $this->_saveInfo();
 
                 //NOTICE 间隔一段时间，简单的防屏蔽策略
@@ -93,22 +96,50 @@ class InfoHandler {
         echo $msg, "\n";
     }
 
-    protected function _initRoom() {
+    protected function _initRoom($roomUrl) {
         foreach($this->_roomInfo as $k => $v) {
             $this->_roomInfo[$k] = '';
         }
         $this->_roomHtml = '';
-    }
-
-    protected function _parseInfo($url) {
+        $this->_roomInfo['url'] = $roomUrl;
 
         $this->_roomHtml = str_replace(
                 "\n", ' ',
-                file_get_contents($url));
+                file_get_contents($this->_roomInfo['url']));
         if (empty($this->_roomHtml)) {
             throw new env\BizException('GET_HTML_ERR');
         }
+    }
 
+    //NOTICE 先处理一下这个房屋的状态, 
+    //       如果没入库就已经状态失效，则直接抛弃, 否则更新状态
+    protected function _preStatus() {
+        $regXiajia2 = '/<span>已下架<\/span>/';
+        $regChengjiao = '/class="chengjiao"/';
+
+        $matchXiajia2 = Util::extraInfo($regXiajia2, $this->_roomHtml, false);
+        $matchChengjiao = Util::extraInfo($regChengjiao, $this->_roomHtml, false);
+
+        if ($matchXiajia2) {
+            $this->_roomInfo['status'] = Config::$ROOM_STATUS_XIAJIA;
+        }
+        if ($matchChengjiao) {
+            $this->_roomInfo['status'] = Config::$ROOM_STATUS_CHENGJIAO;
+        }
+        if ($this->_roomInfo['status'] != Config::$ROOM_STATUS_OK) {
+            $room = models\RoomInfo::find()
+                ->where(['room_url' => $this->_roomInfo['url']])
+                ->one();
+            if (! $room) {
+                $key = 'ROOM_NOTOK_NOT_EXIST';
+                $msg = "[url: {$this->_roomInfo['url']}]"
+                    . "[status: {$this->_roomInfo['status']}]";
+                throw new env\BizException($key);
+            }
+        }
+    }
+
+    protected function _parseInfo() {
         $roomInfo = array(
             'biaoti' => ['/<h1 class="main" title="(.*?)"/', 1],
             'zongjia' => ['/<span class="total">(.*?)<\/span>/', 1],
@@ -179,7 +210,7 @@ class InfoHandler {
     //NOTICE dizhi,tupian,shoufu,huankuan,kanfang
     protected function _otherInfo() {
         $this->_roomInfo['dizhi'] = '北京市' 
-            . $this->_roomInfo['quxian']    
+            . $this->_roomInfo['quxian'] . '区'    
             . $this->_roomInfo['xiaoqu'];    
         $kanfangUrl =
             'http://bj.lianjia.com/ershoufang/showcomment?&id=' . $this->_roomInfo['bianhao'];
@@ -200,22 +231,23 @@ class InfoHandler {
             }
             $this->_roomInfo['tupian'] = json_encode($this->_roomInfo['tupian']);
         }
-        
+
     }
 
     protected function _saveInfo() {
-        $bianhao = $this->_roomInfo['bianhao'];
+        $url = $this->_roomInfo['url'];
         $time = date('Y-m-d H:i:s');
         $date = date('Y-m-d');
 
         $room = models\RoomInfo::find()
-            ->where(['room_bianhao' => $bianhao])
+            ->where(['room_url' => $url])
             ->one();
         if ($room == null) {
             $room = new models\RoomInfo();
             $room->create_time = $time;
-            $room->status = 0;
+            $bianhao = $this->_roomInfo['bianhao'];
         } else {
+            $bianhao = $room->room_bianhao;
             $oldPrice = json_decode($room->room_lishijiage, true);
         }
         $oldPrice[$date] = $this->_roomInfo['zongjia'];
@@ -223,9 +255,15 @@ class InfoHandler {
         $room->room_lishijiage = json_encode($oldPrice);
         $room->update_time = $time;
 
-        foreach($this->_roomInfo as $k => $v) {
-            $key = 'room_' . $k;
-            $room->$key = $v;
+        if ($this->_roomInfo['status'] != 0) {
+            $room->room_status = $this->_roomInfo['status'];    
+        } else {
+            foreach($this->_roomInfo as $k => $v) {
+                if (strlen($v) > 0) {
+                    $key = 'room_' . $k;
+                    $room->$key = $v;
+                }
+            }
         }
         try {
             $room->save();

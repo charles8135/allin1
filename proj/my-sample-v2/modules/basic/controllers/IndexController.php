@@ -24,6 +24,13 @@ class IndexController extends Controller {
     public function actionRoom() {
         echo "SELECT * FROM `room_info` WHERE `room_nianxian` LIKE '满五年' AND `room_weiyi` LIKE '唯一住宅' and
             `room_mianji` >85 and`room_nianling` >2000 ORDER BY `room_info`.`room_guanzhu` DESC";
+
+        echo "<br><br>";
+
+        echo "SELECT room_url, room_zongjia,room_mianji,room_xiaoqu,room_dizhi,room_kanfang,room_guanzhu FROM
+            `room_info` WHERE `room_nianxian` LIKE '满五年' AND `room_weiyi` LIKE '唯一住宅' AND `room_nianling` > 2001
+            AND `room_juli` < 15000 AND `room_status` = 0 and `room_mianji` >80 order by room_guanzhu desc";
+
     }
 
     public function actionEcho() {
