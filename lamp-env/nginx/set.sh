@@ -2,15 +2,20 @@
 
 . ./conf.sh
 
+##NEED CHANGE##
+RUNTIME_DIR="$HOME/var/run-www-sample"
+RUNTIME_NGINX_DIR=$RUNTIME_DIR"/nginx"
+
 echo "config nginx..."
 
-cp $INSTALL_DIR/conf/nginx.conf $INSTALL_DIR/conf/nginx.conf.bak.$CUR_DATE
-
-cp $CUR_DIR/conf-sample/nginx.conf $INSTALL_DIR/conf/nginx.conf
-
-mkdir -p $MY_BIN
-
-cp $CUR_DIR/sbin/nginx.sh $MY_BIN
+if [ -d $RUNTIME_NGINX_DIR ]; then
+    echo "[ERROR] $RUNTIME_NGINX_DIR is exist..."
+    exit 1
+else 
+    mkdir -p $RUNTIME_DIR
+    cp -rf src/nginx $RUNTIME_DIR
+    cp sbin/nginx.sh $RUNTIME_DIR
+fi
 
 echo "config nginx done..."
 
