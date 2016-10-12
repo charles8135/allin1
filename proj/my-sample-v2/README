@@ -1,4 +1,12 @@
-PHP Web项目实践方案
+##获取Composer方法
+
+curl -sS https://getcomposer.org/installer | php
+
+##使用composer方法
+
+php composer.phar install
+
+##PHP Web项目实践方案
 
 环境要求：
 Linux Nginx MySQL Redis
