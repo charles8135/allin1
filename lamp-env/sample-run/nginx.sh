@@ -1,21 +1,18 @@
 #!/bin/bash
 
 ### Need Change
-BASE_USER=$USER
-BASE_DIR="/home/$BASE_USER/var/www-run/nginx"
-NGINX_CONF_FILE=$BASE_DIR"/conf/nginx.conf"
-
-NGINX_DIR="/home/$BASE_USER/my-local/nginx"
+RUNTIME_DIR="$HOME/var/run-www-sample/nginx"
+NGINX_DIR="$HOME/my-local/nginx"
 nginx=$NGINX_DIR"/sbin/nginx"
 
 configtest() {
-  $nginx -t -c $NGINX_CONF_FILE
+  $nginx -t -p $RUNTIME_DIR/
 }
 
 function start(){
   configtest || return $?
   echo "mynginx start..."
-  $nginx -p $BASE_DIR -c $NGINX_CONF_FILE
+  $nginx -p $RUNTIME_DIR/
   retval=$?
   [ $retval -eq 0 ] || echo "start failed"
   return $retval
@@ -23,7 +20,7 @@ function start(){
 
 function stop(){
   echo "mynginx stop..."
-  $nginx -s stop -p $BASE_DIR -c $NGINX_CONF_FILE
+  $nginx -s stop -p $RUNTIME_DIR/
   retval=$?
   [ $retval -eq 0 ] || echo "stop failed"
   return $retval
@@ -32,7 +29,7 @@ function stop(){
 function restart(){
   configtest || return $?
   echo "mynignx restart..."
-  $nginx -s reload -p $BASE_DIR/
+  $nginx -s reload -p $RUNTIME_DIR/
   retval=$?
   [ $retval -eq 0 ] || echo "restart failed"
   return $retval
