@@ -1,11 +1,10 @@
 #!/bin/bash
 
-BASE_USER=$USER
-BASE_DIR="/home/$BASE_USER/var/www-run/php"
+BASE_DIR="$HOME/var/run-www-sample/php"
 FPM_CONF_FILE=$BASE_DIR"/fpm.conf"
 PHP_CONF_FILE=$BASE_DIR"/php.ini"
 FPM_PID_FILE=$BASE_DIR"/php.pid"
-phpfpm="/home/$BASE_USER/my-local/php/sbin/php-fpm"
+phpfpm="$HOME/my-local/php/sbin/php-fpm"
 
 configtest() {
   $phpfpm -t -y $FPM_CONF_FILE
