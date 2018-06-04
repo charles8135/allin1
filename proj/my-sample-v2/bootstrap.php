@@ -11,7 +11,7 @@ define('ENV', 'dev');
 defined('YII_DEBUG') or define('YII_DEBUG', true);
 
 //NOTICE 开发工程前，必须要review是否进行修改
-defined('DIR_RUNTIME') or define('DIR_RUNTIME', '/home/liuyue01/var/log-www-sample/runtime');
+defined('DIR_RUNTIME') or define('DIR_RUNTIME', '/home/liuyue/var/log-www-sample/runtime');
 
 $cur_dir = __DIR__;
 defined('DIR_ROOT') or define('DIR_ROOT', $cur_dir);
